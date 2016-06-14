@@ -337,7 +337,7 @@ a, a:hover, a:active, a:visited, a:target {
   bottom: 1.28rem;
   z-index: 1;
   transform: rotate(0deg);  
-  background-image: url("http://img1.maka.im/undefined/179604477856daf0ee7aeb20.00472596.png@0-0-0-0a_90Q.src");
+  background-image: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -357,7 +357,7 @@ a, a:hover, a:active, a:visited, a:target {
     bottom: 1.28rem;
     z-index: 1;
     transform: rotate(0deg);
-    background-image: url("http://img1.maka.im/undefined/23917954356daf0eeb38067.54495595.png@0-0-0-0a_90Q.src");
+    background-image: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -375,7 +375,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.55rem;
   bottom: 1.07rem;
   z-index: 3;
-  background-image: url("http://img1.maka.im/undefined/6550827656daf0ef376e36.99647802.png@0-0-0-0a_90Q.src");
+  background-image: url("./img/green.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -397,7 +397,7 @@ a, a:hover, a:active, a:visited, a:target {
   z-index: 2;
   overflow: hidden;
   transform: rotate(0deg);
-  background-image: url("http://img1.maka.im/undefined/191040997056daf0eeeaad13.34717483.png@0-0-0-0a_90Q.src");
+  background-image: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -478,7 +478,7 @@ a, a:hover, a:active, a:visited, a:target {
   top: 0.8rem;
   z-index: 1;
   transform: rotate(0deg);  
-  background-image: url("http://img1.maka.im/undefined/179604477856daf0ee7aeb20.00472596.png@0-0-0-0a_90Q.src");
+  background-image: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -497,7 +497,7 @@ a, a:hover, a:active, a:visited, a:target {
     top: 0.8rem;
     z-index: 1;
     transform: rotate(0deg);
-    background-image: url("http://img1.maka.im/undefined/23917954356daf0eeb38067.54495595.png@0-0-0-0a_90Q.src");
+    background-image: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -515,7 +515,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.55rem;
   top: 0.06rem;
   z-index: 3;
-  background-image: url("http://img1.maka.im/undefined/6550827656daf0ef376e36.99647802.png@0-0-0-0a_90Q.src");
+  background-image: url("./img/green.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -537,7 +537,7 @@ a, a:hover, a:active, a:visited, a:target {
   z-index: 2;
   overflow: hidden;
   transform: rotate(0deg);
-  background-image: url("http://img1.maka.im/undefined/191040997056daf0eeeaad13.34717483.png@0-0-0-0a_90Q.src");
+  background-image: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -1468,7 +1468,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 0.06rem;
   width: 4.16rem;
   height: 4.84rem;
-    background-image: url("http://img1.maka.im/user/670857/images/2c316483b5798169cb96ea2df8b9dc0b.png@0-0-377-437a_90Q.src");
+    background-image: url("./img/call.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -1484,7 +1484,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.94rem;
   width: 3.6rem;
   height: 1.94rem;
-    background-image: url("http://img1.maka.im/user/670857/images/9541394006438fd732ef76a7c1cb8be3.png@0-0-344-185a_90Q.src");
+    background-image: url("./img/me1.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
