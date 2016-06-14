@@ -81,7 +81,7 @@ a, a:hover, a:active, a:visited, a:target {
     width: 10.80rem;
     height: 31.45rem;
     overflow: hidden;
-    background-image: url("./img/rocket.png");
+    background: url("./img/rocket.png");
     background-size: 6.66rem;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -337,7 +337,7 @@ a, a:hover, a:active, a:visited, a:target {
   bottom: 1.28rem;
   z-index: 1;
   transform: rotate(0deg);  
-  background-image: url("./img/blue.jpg") no-repeat center center;
+  background: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -357,7 +357,7 @@ a, a:hover, a:active, a:visited, a:target {
     bottom: 1.28rem;
     z-index: 1;
     transform: rotate(0deg);
-    background-image: url("./img/yellow.jpg") no-repeat center center;
+    background: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -375,7 +375,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.55rem;
   bottom: 1.07rem;
   z-index: 3;
-  background-image: url("./img/green.jpg") no-repeat center center;
+  background: url("./img/green.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -397,7 +397,7 @@ a, a:hover, a:active, a:visited, a:target {
   z-index: 2;
   overflow: hidden;
   transform: rotate(0deg);
-  background-image: url("./img/red.jpg") no-repeat center center;
+  background: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -478,7 +478,7 @@ a, a:hover, a:active, a:visited, a:target {
   top: 0.8rem;
   z-index: 1;
   transform: rotate(0deg);  
-  background-image: url("./img/blue.jpg") no-repeat center center;
+  background: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -497,7 +497,7 @@ a, a:hover, a:active, a:visited, a:target {
     top: 0.8rem;
     z-index: 1;
     transform: rotate(0deg);
-    background-image: url("./img/yellow.jpg") no-repeat center center;
+    background: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -515,7 +515,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.55rem;
   top: 0.06rem;
   z-index: 3;
-  background-image: url("./img/green.jpg") no-repeat center center;
+  background: url("./img/green.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -537,7 +537,7 @@ a, a:hover, a:active, a:visited, a:target {
   z-index: 2;
   overflow: hidden;
   transform: rotate(0deg);
-  background-image: url("./img/red.jpg") no-repeat center center;
+  background: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -1468,7 +1468,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 0.06rem;
   width: 4.16rem;
   height: 4.84rem;
-    background-image: url("./img/call.jpg") no-repeat center center;
+    background: url("./img/call.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -1484,7 +1484,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.94rem;
   width: 3.6rem;
   height: 1.94rem;
-    background-image: url("./img/me1.jpg") no-repeat center center;
+    background: url("./img/me1.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
