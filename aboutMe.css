@@ -51,6 +51,7 @@ a, a:hover, a:active, a:visited, a:target {
     overflow: hidden;
     z-index: 1;
     background-color:rgb(96,217,146);
+    opacity: 0;
 }
 #page1 .bg{
     animation: moveDown 1000ms ease 2500ms both running;
@@ -99,6 +100,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 6.66rem;
     background-position: 0px 0px;
     background-repeat: no-repeat;
+    opacity: 0;
 }
 #page1 .rocket{
     animation: moveUp 1500ms ease 1000ms both running;
@@ -106,11 +108,11 @@ a, a:hover, a:active, a:visited, a:target {
 @keyframes moveUp {
     /*超出一屏的高度隐藏，当动画执行的时候从超出位置进入舞台*/
   0% {
-    opacity: 0;
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);
     -o-transform: translateY(100%);
     transform: translateY(100%);
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -122,11 +124,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes moveUp{
   0% {
-    opacity: 0;
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);
     -o-transform: translateY(100%);
     transform: translateY(100%);
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -146,17 +148,18 @@ a, a:hover, a:active, a:visited, a:target {
     z-index: 100;
     background: url("./img/11.png")no-repeat;
     background-size:cover;
+    opacity: 0;
 }
 #page1 .expendOpen{
     animation: expandOpen 1000ms linear both 3000ms;
 }
 @keyframes expandOpen {
     0% {
-        opacity: 0;
         -webkit-transform: scale(1.8);
         -moz-transform: scale(1.8);
         -o-transform: scale(1.8);
         transform: scale(1.8);
+        opacity: 0;
     }
 
     50% {
@@ -189,11 +192,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes expandOpen {
     0% {
-        opacity: 0;
         -webkit-transform: scale(1.8);
         -moz-transform: scale(1.8);
         -o-transform: scale(1.8);
         transform: scale(1.8);
+        opacity: 0;
     }
 
     50% {
@@ -232,6 +235,7 @@ a, a:hover, a:active, a:visited, a:target {
     width:4.46rem;
     font-weight: normal;
     z-index: 100;
+    opacity: 0;
 }
 
 .page1 .exOpText2{
@@ -242,6 +246,7 @@ a, a:hover, a:active, a:visited, a:target {
     width:5.82rem;
     text-align: center;
     z-index: 100;
+    opacity: 0;
 }
 
 #page1 .exOpText1,#page1 .exOpText2{
@@ -249,11 +254,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes exOpText{
     0%{
-        opacity:0;
         transform: scale(1.8);
         -webkit-transform: scale(1.8);
         -moz-transform: scale(1.8);
         -o-transform: scale(1.8);
+        opacity: 0;
     }
     50%{
         transform:scale(1);
@@ -283,11 +288,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes exOpText{
     0%{
-        opacity:0;
         transform: scale(1.8);
         -webkit-transform: scale(1.8);
         -moz-transform: scale(1.8);
         -o-transform: scale(1.8);
+        opacity: 0;
     }
     50%{
         transform:scale(1);
@@ -324,6 +329,7 @@ a, a:hover, a:active, a:visited, a:target {
     height:0.06rem;
     background-color: black;
     z-index: 100;
+    opacity:0;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineRight {
@@ -335,11 +341,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes lineRight {
   0% {
-    opacity: 0;
     -webkit-transform: scaleX(0.3);
     -moz-transform: scaleX(0.3);
     -o-transform: scaleX(0.3);
     transform: scaleX(0.3);
+    opacity: 0;
   }
   40% {
     -webkit-transform: scaleX(1.02);
@@ -381,11 +387,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes lineRight {
   0% {
-    opacity: 0;
     -webkit-transform: scaleX(0.3);
     -moz-transform: scaleX(0.3);
     -o-transform: scaleX(0.3);
     transform: scaleX(0.3);
+    opacity: 0;
   }
   40% {
     -webkit-transform: scaleX(1.02);
@@ -434,6 +440,7 @@ a, a:hover, a:active, a:visited, a:target {
     height:0.06rem;  
     background-color: black;
     z-index: 100;
+    opacity: 0;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineLeft {
@@ -446,11 +453,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes lineLeft {
   0% {
-    opacity: 0;
     -webkit-transform: scaleX(0.3);
     -moz-transform: scaleX(0.3);
     -o-transform: scaleX(0.3);
     transform: scaleX(0.3);
+    opacity: 0;
   }
   40% {
     opacity: 1;
@@ -507,6 +514,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
+    opacity: 0;
 }
 #page1 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
@@ -526,6 +534,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
+    opacity: 0;
 }
 #page1 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
@@ -544,6 +553,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
+    opacity: 0;
 }
 
 #page1 .green{
@@ -563,6 +573,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
+    opacity: 0;
 }
 #page1 .red{
   animation: rotateIn 1000ms ease 600ms both running;
@@ -570,11 +581,11 @@ a, a:hover, a:active, a:visited, a:target {
 
 @keyframes rotateIn {
   from {
-    opacity: 0;
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
     -o-transform: rotate(-220deg);
     transform: rotate(-220deg);
+    opacity: 0;
   }
   to {
     opacity: 1;
@@ -586,11 +597,11 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes rotateIn {
   from {
-    opacity: 0;
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
     -o-transform: rotate(-220deg);
     transform: rotate(-220deg);
+    opacity: 0;
   }
   to {
     opacity: 1;
@@ -617,18 +628,19 @@ a, a:hover, a:active, a:visited, a:target {
   background:-webkit-linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   background:linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   font-size: .32rem;
+    opacity: 0;
 }
 #page1 .click{
   animation: slideInLeft 1000ms ease 3500ms both running;
 }
 @keyframes slideInLeft {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(-500%, 0, 0);
     -o-transform: translate3d(-500%, 0, 0);
     -moz-transform: translate3d(-500%, 0, 0);
     transform: translate3d(-500%, 0, 0);
     visibility: visible;
+    opacity: 0;
   }
   to {
     opacity: 1;
@@ -640,12 +652,12 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes slideInLeft {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(-500%, 0, 0);
     -o-transform: translate3d(-500%, 0, 0);
     -moz-transform: translate3d(-500%, 0, 0);
     transform: translate3d(-500%, 0, 0);
     visibility: visible;
+    opacity: 0;
   }
   to {
     opacity: 1;
@@ -680,6 +692,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
+    opacity: 0;
 }
 #page2 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
@@ -698,6 +711,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
+    opacity: 0;
 }
 #page2 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
@@ -716,6 +730,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
+    opacity: 0;
 }
 
 #page2 .green{
@@ -735,6 +750,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
+    opacity: 0;
 }
 
 #page2 .red{
@@ -743,7 +759,6 @@ a, a:hover, a:active, a:visited, a:target {
 
 @keyframes rotateIn {
   from {
-    opacity: 0;
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
     -o-transform: rotate(-220deg);
@@ -759,7 +774,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes rotateIn {
   from {
-    opacity: 0;
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
     -o-transform: rotate(-220deg);
@@ -784,6 +798,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: cover;
   border: 1px solid transparent;
   border-radius: 50%;
+    opacity: 0;
 }
 #page2 .me{
     animation: zoomOut 1000ms ease 3200ms both running;
@@ -791,7 +806,6 @@ a, a:hover, a:active, a:visited, a:target {
 
 @keyframes zoomOut {
   from {
-    opacity: 0;
   }
 
   50% {
@@ -808,7 +822,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes zoomOut {
   from {
-    opacity: 0;
   }
 
   50% {
@@ -833,6 +846,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: 2.9rem;
   color: lightcoral;
   font-size: .4rem;
+    opacity: 0;
 }
 
 #page2>p{
@@ -951,6 +965,7 @@ a, a:hover, a:active, a:visited, a:target {
   width: 1.62rem;
   font-size: 0.32rem;
   text-align: right;
+    opacity: 0;
 }
 #page2 .infoL{
     animation: slideInLeft 1000ms ease 3400ms both running;
@@ -960,6 +975,7 @@ a, a:hover, a:active, a:visited, a:target {
   display: block;
   width: 100%;
   height: 0.5rem;
+    opacity: 0;
 }
 
 .page2 .infoR{
@@ -968,6 +984,7 @@ a, a:hover, a:active, a:visited, a:target {
   top: 3.5rem;
   font-size: 0.32rem;
   text-align: left;
+    opacity: 0;
 }
 #page2 .infoR{
     animation: bounceInRight 2000ms ease 4000ms both running;
@@ -982,7 +999,6 @@ a, a:hover, a:active, a:visited, a:target {
   }
 
   from {
-    opacity: 0;
     -webkit-transform: translate3d(3000px, 0, 0);
     -o-transform: translate3d(3000px, 0, 0);
     -moz-transform: translate3d(3000px, 0, 0);
@@ -1028,7 +1044,6 @@ a, a:hover, a:active, a:visited, a:target {
   }
 
   from {
-    opacity: 0;
     -webkit-transform: translate3d(3000px, 0, 0);
     -o-transform: translate3d(3000px, 0, 0);
     -moz-transform: translate3d(3000px, 0, 0);
@@ -1070,6 +1085,7 @@ a, a:hover, a:active, a:visited, a:target {
   display: block;
   width: 100%;
   height: 0.5rem;
+    opacity: 0;
 }
 
 .page2 .QQIcon{
@@ -1082,6 +1098,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
+    opacity: 0;
 }
 #page2 .QQIcon{
   animation: tada 1000ms ease 3400ms both running;
@@ -1166,6 +1183,7 @@ a, a:hover, a:active, a:visited, a:target {
   bottom: 2rem;
   font-size: .3rem;
   left: 3rem;
+    opacity: 0;
 }
 #page2 .QQ{
   animation: pulse 5000ms ease 4500ms infinite running;
@@ -1173,7 +1191,6 @@ a, a:hover, a:active, a:visited, a:target {
 
 @keyframes pulse {
   from {
-    opacity: 0;
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
@@ -1197,7 +1214,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes pulse {
   from {
-    opacity: 0;
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
@@ -1240,8 +1256,10 @@ a, a:hover, a:active, a:visited, a:target {
   position: absolute;
   border: 1px solid transparent;
   border-radius: 50%;
+    opacity: 0;
 }
 .page3 .line1,.page3 .line2,.page3 .line3,.page3 .line4{
+    opacity: 0;
 }
 .page3 .circle1{
   top: 1rem;
@@ -1253,6 +1271,7 @@ a, a:hover, a:active, a:visited, a:target {
   border: 1px solid transparent;
   border-radius: 50%;
   background-size: 100% 100%;
+    opacity: 0;
 }
 #page3 .circle1{
   animation: rotateInDownLeft 1000ms ease 600ms both running;
@@ -1268,6 +1287,7 @@ a, a:hover, a:active, a:visited, a:target {
   border: 1px solid transparent;
   border-radius: 50%;
   background-size: 100% 100%;
+    opacity: 0;
 }
 #page3 .circle2{
   animation: rotateInDownRight 1000ms ease 600ms both running;
@@ -1282,6 +1302,7 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/jq.jpg") no-repeat center center;
   background-size: 100% 100%;
+    opacity: 0;
 }
 #page3 .circle3{
   animation: rotateInDownLeft 1000ms ease 600ms both running;
@@ -1297,6 +1318,7 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/boot.jpg") no-repeat center center;
   background-size: 100% 100%;
+    opacity: 0;
 }
 #page3 .circle4{
   animation: rotateInDownRight 1000ms ease 600ms both running;
@@ -1313,7 +1335,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(-90deg) translateZ(0);
     -o-transform: rotate(-90deg) translateZ(0);
     transform: rotate(-90deg) translateZ(0);
-    opacity: 0;
   }
   100% {
     -webkit-transform-origin: left bottom;
@@ -1337,7 +1358,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(-90deg) translateZ(0);
     -o-transform: rotate(-90deg) translateZ(0);
     transform: rotate(-90deg) translateZ(0);
-    opacity: 0;
   }
   100% {
     -webkit-transform-origin: left bottom;
@@ -1362,7 +1382,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(90deg) translateZ(0);
     -o-transform: rotate(90deg) translateZ(0);
     transform: rotate(90deg) translateZ(0);
-    opacity: 0;
   }
   100% {
     -webkit-transform-origin: right bottom;
@@ -1373,7 +1392,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(0) translateZ(0);
     -o-transform: rotate(0) translateZ(0);
     transform: rotate(0) translateZ(0);
-    opacity: 1;
   }
 }
 @-webkit-keyframes rotateInDownRight {
@@ -1386,7 +1404,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(90deg) translateZ(0);
     -o-transform: rotate(90deg) translateZ(0);
     transform: rotate(90deg) translateZ(0);
-    opacity: 0;
   }
   100% {
     -webkit-transform-origin: right bottom;
@@ -1412,6 +1429,7 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/node.jpg") no-repeat center center;
   background-size: 100% 100%;
+    opacity: 0;
 }
 
 #page3 .circle5{
@@ -1424,7 +1442,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: scale(0) translateZ(0);
     -o-transform: scale(0) translateZ(0);
     transform: scale(0) translateZ(0);
-    opacity: 0;
   }
   60% {
     -webkit-transform: scale(1.1) translateZ(0);
@@ -1455,7 +1472,6 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: scale(0) translateZ(0);
     -o-transform: scale(0) translateZ(0);
     transform: scale(0) translateZ(0);
-    opacity: 0;
   }
   60% {
     -webkit-transform: scale(1.1) translateZ(0);
@@ -1489,6 +1505,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: red;
   transform: rotate(35deg);
+    opacity: 0;
 }
 #page3 .line1{
   animation: fadeInNormal 1000ms ease 2000ms both running;
@@ -1502,6 +1519,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: green;
   transform: rotate(147deg);
+    opacity: 0;
 }
 #page3 .line2{
   animation: fadeInNormal 1000ms ease 2500ms both running;
@@ -1515,6 +1533,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: blue;
   transform: rotate(200deg);
+    opacity: 0;
 }
 #page3 .line3{
   animation: fadeInNormal 1000ms ease 3000ms both running;
@@ -1528,6 +1547,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: orange;
   transform: rotate(141deg);
+    opacity: 0;
 }
 #page3 .line4{
   animation: fadeInNormal 1000ms ease 3500ms both running;
@@ -1556,6 +1576,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: -0.5rem;
   overflow: hidden;
   white-space: nowrap;
+    opacity: 0;
 }
 .page3 .circle2 .js{
   position: absolute;
@@ -1563,6 +1584,7 @@ a, a:hover, a:active, a:visited, a:target {
   font-size: 0.3rem;
   overflow: hidden;
   white-space: nowrap;
+    opacity: 0;
 }
 .page3 .circle3 .jQuery{
   position: absolute;
@@ -1570,6 +1592,7 @@ a, a:hover, a:active, a:visited, a:target {
   font-size: 0.3rem;
   overflow: hidden;
   white-space: nowrap;
+    opacity: 0;
 }
 .page3 .circle4 .bootstrap{
   position: absolute;
@@ -1577,6 +1600,7 @@ a, a:hover, a:active, a:visited, a:target {
   font-size: 0.3rem;
   left: 0.5rem;
   overflow: hidden;
+    opacity: 0;
 }
 .page3 .circle5 .node{
   position: absolute;
@@ -1585,6 +1609,7 @@ a, a:hover, a:active, a:visited, a:target {
   left: -0.5rem;
   overflow: hidden;
   white-space: nowrap;
+    opacity: 0;
 }
 
 /*第三页完*/
@@ -1615,6 +1640,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 130% 130%;
   border: 1px solid transparent;
   border-radius: 50%;
+    opacity: 0;
 }
 #page4 .clock{
   animation: rotateIn 2000ms ease 1000ms both running;
@@ -1624,13 +1650,13 @@ a, a:hover, a:active, a:visited, a:target {
   position: absolute;
   top: 2.5rem;
   left: 2.2rem;
+    opacity: 0;
 }
 #page4 .desc{
   animation: jello 2000ms ease 1500ms both running;
 }
 @keyframes jello {
   from, 11.1%, to {
-    opacity: 0;
     -webkit-transform: none;
     -o-transform: none;
     -moz-transform: none;
@@ -1689,7 +1715,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes jello {
   from, 11.1%, to {
-    opacity: 0;
     -webkit-transform: none;
     -o-transform: none;
     -moz-transform: none;
@@ -1758,6 +1783,7 @@ a, a:hover, a:active, a:visited, a:target {
     border-radius: 50%;
     background: url("./img/head.jpg") no-repeat center center;
     background-size: 80%;
+    opacity: 0;
 }
 #page4 .programDesc{
   animation: bounceInDown 1000ms ease 2000ms both running;
@@ -1768,6 +1794,7 @@ a, a:hover, a:active, a:visited, a:target {
     left: 0.7rem;
     top: 0.6rem;
     color: #fff;
+    opacity: 0;
 }
 
 @keyframes bounceInDown {
@@ -1777,7 +1804,6 @@ a, a:hover, a:active, a:visited, a:target {
   }
 
   0% {
-    opacity: 0;
     -webkit-transform: translate3d(0, -3000px, 0);
     transform: translate3d(0, -3000px, 0);
   }
@@ -1811,7 +1837,6 @@ a, a:hover, a:active, a:visited, a:target {
   }
 
   0% {
-    opacity: 0;
     -webkit-transform: translate3d(0, -3000px, 0);
     transform: translate3d(0, -3000px, 0);
   }
@@ -1846,7 +1871,7 @@ a, a:hover, a:active, a:visited, a:target {
     width: 0.03rem;
     height: 5.5rem;
     background: #4D4D4D;
-    
+    opacity: 0;
 }
 #page4 .proLine{
   animation: fadeV1 6000ms ease 4000ms both running;
@@ -1884,6 +1909,7 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/1c.jpg") no-repeat center center;
   background-size: 100%;
+    opacity: 0;
 }
 #page4 .one{
   animation: fadeInRightBig 1000ms ease 5000ms both running;
@@ -1895,6 +1921,7 @@ a, a:hover, a:active, a:visited, a:target {
     white-space: nowrap;
     font-size: 0.1rem;
     color: #F89466;
+    opacity: 0;
 }
 #page4 .one span{
   animation: zoomInRight 1000ms ease 5500ms both running;
@@ -1912,6 +1939,7 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/2c.jpg") no-repeat center center;
   background-size: 100%;
+    opacity: 0;
 }
 #page4 .two{
   animation: fadeInLeftBig 1000ms ease 6000ms both running;
@@ -1921,6 +1949,7 @@ a, a:hover, a:active, a:visited, a:target {
     white-space: nowrap;
     font-size: 0.1rem;
     color: #46BADD;
+    opacity: 0;
 }
 
 #page4 .two span{
@@ -1939,6 +1968,7 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/3c.jpg") no-repeat center center;
   background-size: 100%;
+    opacity: 0;
 }
 #page4 .three{
   animation: fadeInRightBig 1000ms ease 7000ms both running;
@@ -1949,6 +1979,7 @@ a, a:hover, a:active, a:visited, a:target {
     white-space: nowrap;
     font-size: 0.1rem;
     color: #434155;
+    opacity: 0;
 }
 #page4 .three span{
   animation: zoomInRight 1000ms ease 7500ms both running;
@@ -1963,6 +1994,7 @@ a, a:hover, a:active, a:visited, a:target {
     height: 0.17rem;
     background: url("./img/1+.jpg") no-repeat center center;
     background-size: 100%;
+    opacity: 0;
 }
 #page4 .o1{
   animation: fadeInNormal 1000ms ease 5000ms both running;
@@ -1976,6 +2008,7 @@ a, a:hover, a:active, a:visited, a:target {
     height: 0.17rem;
     background: url("./img/2+.jpg") no-repeat center center;
     background-size: 100%;
+    opacity: 0;
 }
 #page4 .t2{
   animation: fadeInNormal 1000ms ease 6000ms both running;
@@ -1989,6 +2022,7 @@ a, a:hover, a:active, a:visited, a:target {
     height: 0.17rem;
     background: url("./img/3+.jpg") no-repeat center center;
     background-size: 100%;
+    opacity: 0;
 }
 #page4 .t3{
   animation: fadeInNormal 1000ms ease 7000ms both running;
@@ -1997,7 +2031,6 @@ a, a:hover, a:active, a:visited, a:target {
 
 @keyframes zoomInRight {
   from {
-    opacity: 0;
     -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
     transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
     -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -2017,7 +2050,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes zoomInRight {
   from {
-    opacity: 0;
     -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
     transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
     -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -2037,7 +2069,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes fadeInRightBig {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(2000px, 0, 0);
     transform: translate3d(2000px, 0, 0);
   }
@@ -2050,7 +2081,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes fadeInRightBig {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(2000px, 0, 0);
     transform: translate3d(2000px, 0, 0);
   }
@@ -2063,7 +2093,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes fadeInLeftBig {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(-2000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
   }
@@ -2076,7 +2105,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes fadeInLeftBig {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(-2000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
   }
@@ -2089,7 +2117,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes zoomInLeft {
   from {
-    opacity: 0;
     -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
     transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
     -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -2109,7 +2136,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes zoomInLeft {
   from {
-    opacity: 0;
     -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
     transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
     -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -2170,6 +2196,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
+    opacity: 0;
 }
 #page5 .call{
     animation: slideInLeft 1000ms ease 1200ms both running;
@@ -2185,6 +2212,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
+    opacity: 0;
 }
 #page5 .me{
     animation: slideInRight 1000ms ease 1300ms both running;
@@ -2193,7 +2221,6 @@ a, a:hover, a:active, a:visited, a:target {
 
 @keyframes slideInLeft {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
@@ -2207,7 +2234,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @-webkit-keyframes slideInLeft {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
@@ -2221,7 +2247,6 @@ a, a:hover, a:active, a:visited, a:target {
 }
 @keyframes slideInRight {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -2236,7 +2261,6 @@ a, a:hover, a:active, a:visited, a:target {
 
 @-webkit-keyframes slideInRight {
   from {
-    opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -2256,6 +2280,7 @@ a, a:hover, a:active, a:visited, a:target {
     font-size: 0.5rem;
     transform: rotate(32deg);
     color: #fff;
+    opacity: 0;
 }
 #page5 .thanks{
     animation: Ljm 2000ms ease 1600ms both running;
@@ -2264,7 +2289,6 @@ a, a:hover, a:active, a:visited, a:target {
 @keyframes Ljm {
   from {
     transform: translate(-100rem) rotate(32deg);
-    opacity: 0;
   }
 
   to {
@@ -2275,7 +2299,6 @@ a, a:hover, a:active, a:visited, a:target {
 @-webkit-keyframes Ljm {
   from {
     transform: translate(-100rem) rotate(32deg);
-    opacity: 0;
   }
 
   to {
