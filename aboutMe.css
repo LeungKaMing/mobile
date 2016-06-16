@@ -170,7 +170,7 @@ html, body {
 
 .page1 .expendOpen{
     position: absolute;
-    top:1.75rem;
+    top:0.75rem;
     left:.74rem;
     width:5rem;
     height:3rem;
@@ -260,17 +260,19 @@ html, body {
 
 .page1 .exOpText1{
     position: absolute;
-    top:1.9rem;
-    left:1.24rem;
+    top:0.9rem;
+    left:1rem;
     width:4.46rem;
     font-weight: normal;
     z-index: 100;
     opacity: 0;
+    font-size: 0.96rem;
+    text-align: center;
 }
 
 .page1 .exOpText2{
     position: absolute;
-    top:6.06rem;
+    top:5.06rem;
     left:0.32rem;
     font-size:0.32rem;
     width:5.82rem;
@@ -354,7 +356,7 @@ html, body {
 
 .page1 .lineRight{
     position: absolute;
-    top:5.98rem;
+    top:4.98rem;
     left:1.5rem;
     width: 3.46rem;
     height:0.06rem;
@@ -466,7 +468,7 @@ html, body {
 
 .page1 .lineLeft{
     position: absolute;
-    top: 7.58rem;
+    top: 6.58rem;
     left: 1.5rem;
     width: 3.46rem;
     height:0.06rem;  
@@ -538,7 +540,7 @@ html, body {
   width: 2.3rem;
   height: 1.39rem;
   left: 2.34rem;
-  bottom: 1.28rem;
+  bottom: 2.28rem;
   z-index: 1;
   -webkit-transform:rotate(0deg);
   transform: rotate(0deg);  
@@ -560,7 +562,7 @@ html, body {
     width: 2.48rem;
     height: 1.34rem;
     left: 1.7rem;
-    bottom: 1.28rem;
+    bottom: 2.28rem;
     z-index: 1;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -581,7 +583,7 @@ html, body {
   width: 1.43rem;
   height: 2.42rem;
   left: 2.55rem;
-  bottom: 1.07rem;
+  bottom: 2.07rem;
   z-index: 3;
   background: url("./img/green.jpg") no-repeat center center;
   background-size: 100% 100%;
@@ -601,7 +603,7 @@ html, body {
 .page1 .red{
   position: absolute;
   left: 2.54rem;
-  bottom: 0.47rem;
+  bottom: 1.47rem;
   width: 1.4rem;
   height: 2.42rem;
   z-index: 2;
@@ -661,7 +663,7 @@ html, body {
   -webkit-transform: translate(0,0);
   transform: translate(0,0);
   z-index: 1;
-  bottom: 1.38rem;
+  bottom: 2.38rem;
   left: 50.5%;
   border: 0.03rem solid #fff;
   margin-left: -0.6rem;
@@ -731,7 +733,7 @@ html, body {
   width: 2.3rem;
   height: 1.39rem;
   left: 2.26rem;
-  top: 0.8rem;
+  top: 0.6rem;
   z-index: 1;
   -webkit-transform: rotate(0deg);  
   transform: rotate(0deg);  
@@ -752,7 +754,7 @@ html, body {
     width: 2.3rem;
     height: 1.39rem;
     left: 1.9rem;
-    top: 0.8rem;
+    top: 0.6rem;
     z-index: 1;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -773,7 +775,7 @@ html, body {
   width: 1.36rem;
   height: 2.42rem;
   left: 2.55rem;
-  top: 0.06rem;
+  top: -0.12rem;
   z-index: 3;
   background: url("./img/green.jpg") no-repeat center center;
   background-size: 100% 100%;
@@ -793,7 +795,7 @@ html, body {
 .page2 .red{
   position: absolute;
   left: 2.54rem;
-  top: 0.5rem;
+  top: 0.32rem;
   width: 1.4rem;
   height: 2.42rem;
   z-index: 2;
@@ -845,7 +847,7 @@ html, body {
 
 .page2 .me{
   position: absolute;
-  top: 0.58rem;
+  top: 0.38rem;
   left: 2.3rem;
   width: 1.8rem;
   height: 1.8rem;
@@ -900,7 +902,7 @@ html, body {
 
 .page2>p{
   position: absolute;
-  top: 2.7rem;
+  top: 2.2rem;
   left: 2.9rem;
   color: lightcoral;
   font-size: .4rem;
@@ -1021,7 +1023,7 @@ html, body {
 .page2 .infoL{
   position: absolute;
   left: 1rem;
-  top: 3.5rem;
+  top: 2.9rem;
   width: 1.62rem;
   font-size: 0.32rem;
   text-align: right;
@@ -1041,7 +1043,7 @@ html, body {
 .page2 .infoR{
   position: absolute;
   right: 0.2rem;
-  top: 3.5rem;
+  top: 2.9rem;
   font-size: 0.32rem;
   text-align: left;
     opacity: 0;
@@ -1150,7 +1152,7 @@ html, body {
 
 .page2 .QQIcon{
   position: absolute;
-  bottom: 2rem;
+  bottom: 3rem;
   left: 2rem;
   width: 0.46rem;
   height: 0.50rem;
@@ -1241,7 +1243,7 @@ html, body {
 
 .page2 .QQ{
   position: absolute;
-  bottom: 2rem;
+  bottom: 3rem;
   font-size: .3rem;
   left: 3rem;
     opacity: 0;
@@ -1325,7 +1327,7 @@ html, body {
     opacity: 0;
 }
 .page3 .circle1{
-  top: 1rem;
+  top: 0.4rem;
   left: 1.5rem;
   width: 1.7rem;
   height: 1.7rem;
@@ -1343,7 +1345,7 @@ html, body {
 }
 
 .page3 .circle2{
-  top: 2.5rem;
+  top: 1.5rem;
   left: 4rem;
   width: 1.62rem;
   height: 1.54rem;
@@ -1361,7 +1363,7 @@ html, body {
 }
 
 .page3 .circle3{
-  top: 4rem;
+  top: 3rem;
   left: 0.6rem;
   width: 2.1rem;
   height: 2.1rem;
@@ -1378,7 +1380,7 @@ html, body {
 
 
 .page3 .circle4{
-  top: 5rem;
+  top: 4rem;
   left: 4rem;
   width: 2.2rem;
   height: 2.2rem;
@@ -1494,7 +1496,7 @@ html, body {
 
 
 .page3 .circle5{
-  top: 7rem;
+  top: 6rem;
   left: 2.3rem;
   width: 1.7rem;
   height: 1.7rem;
@@ -1577,7 +1579,7 @@ html, body {
 
 .page3 .line1{
   position: absolute;
-  top: 2.5rem;
+  top: 1.5rem;
   left: 3rem;
   width: 1.24rem;
   height: 0.04rem;
@@ -1593,7 +1595,7 @@ html, body {
 
 .page3 .line2{
   position: absolute;
-  top: 4rem;
+  top: 3.2rem;
   left:2.2rem ;
   width: 2rem;
   height: 0.04rem;
@@ -1609,7 +1611,7 @@ html, body {
 
 .page3 .line3{
   position: absolute;
-  top: 5.5rem;
+  top: 4.5rem;
   left: 2.5rem;
   width: 1.7rem;
   height: 0.04rem;
@@ -1625,7 +1627,7 @@ html, body {
 
 .page3 .line4{
   position: absolute;
-  top: 7rem;
+  top: 6rem;
   left: 3.5rem;
   width: 0.8rem;
   height: 0.04rem;
@@ -1713,7 +1715,7 @@ html, body {
 
 .page4 .clock{
   position: absolute;
-  top: 1rem;
+  top: 0.5rem;
   left: 50%;
   margin-left: -0.6rem;
   width: 1.2rem;
@@ -1731,7 +1733,7 @@ html, body {
 
 .page4 .desc{
   position: absolute;
-  top: 2.5rem;
+  top: 1.8rem;
   left: 2.2rem;
     opacity: 0;
 }
@@ -1860,7 +1862,7 @@ html, body {
 
 .page4 .programDesc{
     position: absolute;
-    top: 3.1rem;
+    top: 2.5rem;
     left: 2.21rem;
     background-color: #333;
     width: 2rem;
@@ -1955,7 +1957,7 @@ html, body {
 
 .page4 .proLine{    
   position: absolute;
-    top: 5rem;
+    top: 4rem;
     left: 3.2rem;
     width: 0.03rem;
     height: 5.5rem;
@@ -1990,7 +1992,7 @@ html, body {
 
 .page4 .one{
   position: absolute;
-  top: 5rem;
+  top: 4.06rem;
   left: 3.2rem;
   width: 2rem;
   height: 2rem;
@@ -2008,7 +2010,7 @@ html, body {
 
 .page4 .one span{
     position: absolute;
-    left: 0.6rem;
+    left: 0.7rem;
     white-space: nowrap;
     font-size: 0.1rem;
     color: #F89466;
@@ -2021,7 +2023,7 @@ html, body {
 
 .page4 .two{
   position: absolute;
-  top: 6.4rem;
+  top: 5.4rem;
   left: 1.2rem;
   background-color: #333;
   width: 2rem;
@@ -2052,7 +2054,7 @@ html, body {
 
 .page4 .three{
   position: absolute;
-  top: 7.95rem;
+  top: 6.95rem;
   left: 3.2rem;
   background-color: #333;
   width: 2rem;
@@ -2070,7 +2072,7 @@ html, body {
 }
 .page4 .three span{
     position: absolute;
-    left: 0.6rem;
+    left: 0.7rem;
     white-space: nowrap;
     font-size: 0.1rem;
     color: #434155;
@@ -2084,7 +2086,7 @@ html, body {
 
 .page4 .o1{
     position: absolute;
-    top: 5.9rem;
+    top: 5rem;
     left: 3.13rem;
     width: 0.17rem;
     height: 0.17rem;
@@ -2099,7 +2101,7 @@ html, body {
 
 .page4 .t2{
     position: absolute;
-    top: 7.3rem;
+    top: 6.3rem;
     left: 3.13rem;
     width: 0.17rem;
     height: 0.17rem;
@@ -2114,7 +2116,7 @@ html, body {
 
 .page4 .t3{
     position: absolute;
-    top: 8.9rem;
+    top: 7.9rem;
     left: 3.13rem;
     width: 0.17rem;
     height: 0.17rem;
@@ -2389,7 +2391,7 @@ html, body {
 
 .page5 .thanks{    
     position: absolute;
-    bottom: 3rem;
+    bottom: 4rem;
     left: 0.5rem;
     font-size: 0.5rem;
     -webkit-transform: rotate(32deg);
