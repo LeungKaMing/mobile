@@ -48,7 +48,6 @@ a, a:hover, a:active, a:visited, a:target {
     left: -0.21rem;
     width: 10.80rem;
     height: 19.20rem;
-    opacity: 0;
     overflow: hidden;
     z-index: 1;
     background-color:rgb(96,217,146);
@@ -93,7 +92,6 @@ a, a:hover, a:active, a:visited, a:target {
     position: absolute;
     top: -2.32rem;
     left: -0.07rem;
-    opacity: 0;
     width: 10.80rem;
     height: 31.45rem;
     overflow: hidden;
@@ -145,7 +143,6 @@ a, a:hover, a:active, a:visited, a:target {
     left:.74rem;
     width:5rem;
     height:3rem;
-    opacity: 0;
     z-index: 100;
     background: url("./img/11.png")no-repeat;
     background-size:cover;
@@ -235,7 +232,6 @@ a, a:hover, a:active, a:visited, a:target {
     width:4.46rem;
     font-weight: normal;
     z-index: 100;
-    opacity: 0;
 }
 
 .page1 .exOpText2{
@@ -246,7 +242,6 @@ a, a:hover, a:active, a:visited, a:target {
     width:5.82rem;
     text-align: center;
     z-index: 100;
-    opacity: 0;
 }
 
 #page1 .exOpText1,#page1 .exOpText2{
@@ -325,7 +320,6 @@ a, a:hover, a:active, a:visited, a:target {
     position: absolute;
     top:5.98rem;
     left:1.5rem;
-    opacity: 0;
     width: 3.46rem;
     height:0.06rem;
     background-color: black;
@@ -436,7 +430,6 @@ a, a:hover, a:active, a:visited, a:target {
     position: absolute;
     top: 7.58rem;
     left: 1.5rem;
-    opacity: 0;
     width: 3.46rem;
     height:0.06rem;  
     background-color: black;
@@ -514,7 +507,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-  opacity: 0;
 }
 #page1 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
@@ -534,7 +526,6 @@ a, a:hover, a:active, a:visited, a:target {
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0;
 }
 #page1 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
@@ -553,7 +544,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
-  opacity: 0;
 }
 
 #page1 .green{
@@ -573,7 +563,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-  opacity: 0;
 }
 #page1 .red{
   animation: rotateIn 1000ms ease 600ms both running;
@@ -628,7 +617,6 @@ a, a:hover, a:active, a:visited, a:target {
   background:-webkit-linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   background:linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   font-size: .32rem;
-  opacity: 0;
 }
 #page1 .click{
   animation: slideInLeft 1000ms ease 3500ms both running;
@@ -692,7 +680,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-  opacity: 0;
 }
 #page2 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
@@ -711,7 +698,6 @@ a, a:hover, a:active, a:visited, a:target {
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0;
 }
 #page2 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
@@ -730,7 +716,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
-  opacity: 0;
 }
 
 #page2 .green{
@@ -750,7 +735,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-  opacity: 0;
 }
 
 #page2 .red{
@@ -800,7 +784,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: cover;
   border: 1px solid transparent;
   border-radius: 50%;
-  opacity: 0;
 }
 #page2 .me{
     animation: zoomOut 1000ms ease 3200ms both running;
@@ -848,7 +831,6 @@ a, a:hover, a:active, a:visited, a:target {
   position: absolute;
   top: 2.7rem;
   left: 2.9rem;
-  opacity: 0;
   color: lightcoral;
   font-size: .4rem;
 }
@@ -969,7 +951,6 @@ a, a:hover, a:active, a:visited, a:target {
   width: 1.62rem;
   font-size: 0.32rem;
   text-align: right;
-  opacity: 0;
 }
 #page2 .infoL{
     animation: slideInLeft 1000ms ease 3400ms both running;
@@ -987,7 +968,6 @@ a, a:hover, a:active, a:visited, a:target {
   top: 3.5rem;
   font-size: 0.32rem;
   text-align: left;
-  opacity: 0;
 }
 #page2 .infoR{
     animation: bounceInRight 2000ms ease 4000ms both running;
@@ -1102,7 +1082,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-  opacity: 0;
 }
 #page2 .QQIcon{
   animation: tada 1000ms ease 3400ms both running;
@@ -1187,7 +1166,6 @@ a, a:hover, a:active, a:visited, a:target {
   bottom: 2rem;
   font-size: .3rem;
   left: 3rem;
-  opacity: 0;
 }
 #page2 .QQ{
   animation: pulse 5000ms ease 4500ms infinite running;
@@ -1262,10 +1240,8 @@ a, a:hover, a:active, a:visited, a:target {
   position: absolute;
   border: 1px solid transparent;
   border-radius: 50%;
-  opacity: 0;
 }
 .page3 .line1,.page3 .line2,.page3 .line3,.page3 .line4{
-  opacity: 0;
 }
 .page3 .circle1{
   top: 1rem;
@@ -1513,7 +1489,6 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: red;
   transform: rotate(35deg);
-  opacity: 0;
 }
 #page3 .line1{
   animation: fadeInNormal 1000ms ease 2000ms both running;
@@ -1640,7 +1615,6 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 130% 130%;
   border: 1px solid transparent;
   border-radius: 50%;
-  opacity: 0;
 }
 #page4 .clock{
   animation: rotateIn 2000ms ease 1000ms both running;
@@ -1650,7 +1624,6 @@ a, a:hover, a:active, a:visited, a:target {
   position: absolute;
   top: 2.5rem;
   left: 2.2rem;
-  opacity: 0;
 }
 #page4 .desc{
   animation: jello 2000ms ease 1500ms both running;
@@ -1785,7 +1758,6 @@ a, a:hover, a:active, a:visited, a:target {
     border-radius: 50%;
     background: url("./img/head.jpg") no-repeat center center;
     background-size: 80%;
-    opacity: 0;
 }
 #page4 .programDesc{
   animation: bounceInDown 1000ms ease 2000ms both running;
@@ -1874,11 +1846,9 @@ a, a:hover, a:active, a:visited, a:target {
     width: 0.03rem;
     height: 5.5rem;
     background: #4D4D4D;
-    opacity: 0;
     
 }
 #page4 .proLine{
-  opacity: 1;
   animation: fadeV1 6000ms ease 4000ms both running;
 }
 @keyframes fadeV1{
@@ -1914,7 +1884,6 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/1c.jpg") no-repeat center center;
   background-size: 100%;
-  opacity: 0;
 }
 #page4 .one{
   animation: fadeInRightBig 1000ms ease 5000ms both running;
@@ -1926,7 +1895,6 @@ a, a:hover, a:active, a:visited, a:target {
     white-space: nowrap;
     font-size: 0.1rem;
     color: #F89466;
-    opacity: 0;
 }
 #page4 .one span{
   animation: zoomInRight 1000ms ease 5500ms both running;
@@ -1944,7 +1912,6 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/2c.jpg") no-repeat center center;
   background-size: 100%;
-  opacity: 0;
 }
 #page4 .two{
   animation: fadeInLeftBig 1000ms ease 6000ms both running;
@@ -1972,7 +1939,6 @@ a, a:hover, a:active, a:visited, a:target {
   border-radius: 50%;
   background: url("./img/3c.jpg") no-repeat center center;
   background-size: 100%;
-  opacity: 0;
 }
 #page4 .three{
   animation: fadeInRightBig 1000ms ease 7000ms both running;
@@ -1997,7 +1963,6 @@ a, a:hover, a:active, a:visited, a:target {
     height: 0.17rem;
     background: url("./img/1+.jpg") no-repeat center center;
     background-size: 100%;
-    opacity: 0;
 }
 #page4 .o1{
   animation: fadeInNormal 1000ms ease 5000ms both running;
@@ -2011,7 +1976,6 @@ a, a:hover, a:active, a:visited, a:target {
     height: 0.17rem;
     background: url("./img/2+.jpg") no-repeat center center;
     background-size: 100%;
-    opacity: 0;
 }
 #page4 .t2{
   animation: fadeInNormal 1000ms ease 6000ms both running;
@@ -2025,7 +1989,6 @@ a, a:hover, a:active, a:visited, a:target {
     height: 0.17rem;
     background: url("./img/3+.jpg") no-repeat center center;
     background-size: 100%;
-    opacity: 0;
 }
 #page4 .t3{
   animation: fadeInNormal 1000ms ease 7000ms both running;
@@ -2207,7 +2170,6 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    opacity: 0;
 }
 #page5 .call{
     animation: slideInLeft 1000ms ease 1200ms both running;
@@ -2223,7 +2185,6 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    opacity: 0;
 }
 #page5 .me{
     animation: slideInRight 1000ms ease 1300ms both running;
@@ -2295,7 +2256,6 @@ a, a:hover, a:active, a:visited, a:target {
     font-size: 0.5rem;
     transform: rotate(32deg);
     color: #fff;
-    opacity: 0;
 }
 #page5 .thanks{
     animation: Ljm 2000ms ease 1600ms both running;
