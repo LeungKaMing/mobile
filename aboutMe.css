@@ -53,11 +53,8 @@ a, a:hover, a:active, a:visited, a:target {
     background-color:rgb(96,217,146);
     opacity: 0;
 }
-#page1 .bg{
-    animation: moveDown 1000ms ease 2500ms both running;
-    -webkit-animation: moveDown 1000ms ease 2500ms both running;
-}
-@keyframes moveDown {
+
+@keyframes moveDown{
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
@@ -89,6 +86,10 @@ a, a:hover, a:active, a:visited, a:target {
     transform: translateY(0%);
   }
 }
+#page1 .bg{
+    animation: moveDown 1000ms ease 2500ms both running;
+    -webkit-animation: moveDown 1000ms ease 2500ms both running;
+}
 
 .page1 .rocket{
     position: absolute;
@@ -103,10 +104,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-repeat: no-repeat;
     opacity: 0;
 }
-#page1 .rocket{
-    animation: moveUp 1500ms ease 1000ms both running;
-    -webkit-animation:moveUp 1500ms ease 1000ms both running;
-}
+
 @keyframes moveUp {
     /*超出一屏的高度隐藏，当动画执行的时候从超出位置进入舞台*/
   0% {
@@ -139,6 +137,10 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: translateY(0%);
     transform: translateY(0%);
   }
+}
+#page1 .rocket{
+    animation: moveUp 1500ms ease 1000ms both running;
+    -webkit-animation:moveUp 1500ms ease 1000ms both running;
 }
 
 .page1 .expendOpen{
@@ -705,6 +707,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
+    -webkit-animation: rotateIn 1000ms ease 3000ms both running;
 }
 
 .page2 .yellow{
@@ -724,6 +727,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
+  -webkit-animation: rotateIn 1000ms ease 1400ms both running;
 }
 
 .page2 .green{
@@ -744,6 +748,7 @@ a, a:hover, a:active, a:visited, a:target {
 
 #page2 .green{
   animation: rotateIn 1000ms ease 2200ms both running;
+  -webkit-animation: rotateIn 1000ms ease 2200ms both running;
 }
 
 .page2 .red{
@@ -764,6 +769,7 @@ a, a:hover, a:active, a:visited, a:target {
 
 #page2 .red{
   animation: rotateIn 1000ms ease 600ms both running;
+  -webkit-animation: rotateIn 1000ms ease 600ms both running;
 }
 
 @keyframes rotateIn {
@@ -811,6 +817,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .me{
     animation: zoomOut 1000ms ease 3200ms both running;
+    -webkit-animation: zoomOut 1000ms ease 3200ms both running;
 }
 
 @keyframes zoomOut {
@@ -861,6 +868,7 @@ a, a:hover, a:active, a:visited, a:target {
 #page2>p{
   /*flash*/
   animation: rubberBand 1000ms ease 3300ms both running;
+  -webkit-animation: rubberBand 1000ms ease 3300ms both running;
 }
 
 @keyframes rubberBand {
@@ -978,6 +986,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .infoL{
     animation: slideInLeft 1000ms ease 3400ms both running;
+    -webkit-animation: slideInLeft 1000ms ease 3400ms both running;
 }
 
 .page2 .infoL span{
@@ -997,6 +1006,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .infoR{
     animation: bounceInRight 2000ms ease 4000ms both running;
+    -webkit-animation: bounceInRight 2000ms ease 4000ms both running;
 }
 
 @keyframes bounceInRight {
@@ -1111,6 +1121,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .QQIcon{
   animation: tada 1000ms ease 3400ms both running;
+  -webkit-animation: tada 1000ms ease 3400ms both running;
 }
 @keyframes tada {
   from {
@@ -1196,6 +1207,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page2 .QQ{
   animation: pulse 5000ms ease 4500ms infinite running;
+  -webkit-animation: pulse 5000ms ease 4500ms infinite running;
 }
 
 @keyframes pulse {
@@ -1284,6 +1296,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .circle1{
   animation: rotateInDownLeft 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownLeft 1000ms ease 600ms both running;
 }
 
 .page3 .circle2{
@@ -1300,6 +1313,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .circle2{
   animation: rotateInDownRight 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownRight 1000ms ease 600ms both running;
 }
 
 .page3 .circle3{
@@ -1315,6 +1329,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .circle3{
   animation: rotateInDownLeft 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownLeft 1000ms ease 600ms both running;
 }
 
 
@@ -1331,6 +1346,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .circle4{
   animation: rotateInDownRight 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownRight 1000ms ease 600ms both running;
 }
 
 
@@ -1443,6 +1459,7 @@ a, a:hover, a:active, a:visited, a:target {
 
 #page3 .circle5{
   animation: fadeIn 1000ms ease 4000ms both running;
+  -webkit-animation: fadeIn 1000ms ease 4000ms both running;
 }
 
 @keyframes fadeIn {
@@ -1518,6 +1535,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .line1{
   animation: fadeInNormal 1000ms ease 2000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 2000ms both running;
 }
 
 .page3 .line2{
@@ -1532,6 +1550,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .line2{
   animation: fadeInNormal 1000ms ease 2500ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 2500ms both running;
 }
 
 .page3 .line3{
@@ -1546,6 +1565,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .line3{
   animation: fadeInNormal 1000ms ease 3000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 3000ms both running;
 }
 
 .page3 .line4{
@@ -1560,6 +1580,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page3 .line4{
   animation: fadeInNormal 1000ms ease 3500ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 3500ms both running;
 }
 @keyframes fadeInNormal {
   0% {
@@ -1653,6 +1674,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .clock{
   animation: rotateIn 2000ms ease 1000ms both running;
+  -webkit-animation: rotateIn 2000ms ease 1000ms both running;
 }
 
 .page4 .desc{
@@ -1663,6 +1685,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .desc{
   animation: jello 2000ms ease 1500ms both running;
+  -webkit-animation: jello 2000ms ease 1500ms both running;
 }
 @keyframes jello {
   from, 11.1%, to {
@@ -1796,6 +1819,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .programDesc{
   animation: bounceInDown 1000ms ease 2000ms both running;
+  -webkit-animation: bounceInDown 1000ms ease 2000ms both running;
 }
 
 .page4 .programDesc span{
@@ -1884,6 +1908,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .proLine{
   animation: fadeV1 6000ms ease 4000ms both running;
+  -webkit-animation: fadeV1 6000ms ease 4000ms both running;
 }
 @keyframes fadeV1{
   0%{
@@ -1922,6 +1947,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .one{
   animation: fadeInRightBig 1000ms ease 5000ms both running;
+  -webkit-animation: fadeInRightBig 1000ms ease 5000ms both running;
 }
 
 .page4 .one span{
@@ -1934,6 +1960,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .one span{
   animation: zoomInRight 1000ms ease 5500ms both running;
+  -webkit-animation: zoomInRight 1000ms ease 5500ms both running;
 }
 
 .page4 .two{
@@ -1952,6 +1979,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .two{
   animation: fadeInLeftBig 1000ms ease 6000ms both running;
+  -webkit-animation: fadeInLeftBig 1000ms ease 6000ms both running;
 }
 
 .page4 .two span{
@@ -1963,6 +1991,7 @@ a, a:hover, a:active, a:visited, a:target {
 
 #page4 .two span{
   animation: zoomInLeft 1000ms ease 6500ms both running;
+  -webkit-animation: zoomInLeft 1000ms ease 6500ms both running;
 }
 
 .page4 .three{
@@ -1981,6 +2010,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .three{
   animation: fadeInRightBig 1000ms ease 7000ms both running;
+  -webkit-animation: fadeInRightBig 1000ms ease 7000ms both running;
 }
 .page4 .three span{
     position: absolute;
@@ -1992,6 +2022,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .three span{
   animation: zoomInRight 1000ms ease 7500ms both running;
+  -webkit-animation: zoomInRight 1000ms ease 7500ms both running;
 }
 
 
@@ -2007,6 +2038,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .o1{
   animation: fadeInNormal 1000ms ease 5000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 5000ms both running;
 }
 
 .page4 .t2{
@@ -2021,6 +2053,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .t2{
   animation: fadeInNormal 1000ms ease 6000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 6000ms both running;
 }
 
 .page4 .t3{
@@ -2035,6 +2068,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page4 .t3{
   animation: fadeInNormal 1000ms ease 7000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 7000ms both running;
 }
 
 
@@ -2190,6 +2224,7 @@ a, a:hover, a:active, a:visited, a:target {
   overflow:hidden;
   background-color:rgb(39,161,165);
   transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 }
 #page5{
   background-color:rgb(96,217,146);
@@ -2209,6 +2244,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page5 .call{
     animation: slideInLeft 1000ms ease 1200ms both running;
+    -webkit-animation: slideInLeft 1000ms ease 1200ms both running;
 }
 
 .page5 .me{
@@ -2225,7 +2261,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page5 .me{
     animation: slideInRight 1000ms ease 1300ms both running;
-
+    -webkit-animation: slideInRight 1000ms ease 1300ms both running;
 }
 
 @keyframes slideInLeft {
@@ -2288,31 +2324,37 @@ a, a:hover, a:active, a:visited, a:target {
     left: 0.5rem;
     font-size: 0.5rem;
     transform: rotate(32deg);
+    -webkit-transform: rotate(32deg);
     color: #fff;
     opacity: 0;
 }
 #page5 .thanks{
     animation: Ljm 2000ms ease 1600ms both running;
+    -webkit-animation: Ljm 2000ms ease 1600ms both running;
 }
 
 @keyframes Ljm {
   from {
     transform: translate(-100rem) rotate(32deg);
+    -webkit-transform: translate(-100rem) rotate(32deg);
   }
 
   to {
     opacity: 1;
     transform: translate(0rem) rotate(32deg);
+    -webkit-transform: translate(0rem) rotate(32deg);
   }
 }
 @-webkit-keyframes Ljm {
   from {
     transform: translate(-100rem) rotate(32deg);
+    -webkit-transform: translate(-100rem) rotate(32deg);
   }
 
   to {
     opacity: 1;
     transform: translate(0rem) rotate(32deg);
+    -webkit-transform: translate(0rem) rotate(32deg);
   }
 }
 
@@ -2376,20 +2418,25 @@ a, a:hover, a:active, a:visited, a:target {
     background: url("./img/btn.png") no-repeat;
     background-size: cover;
     transform: translate(0,0);
+    -webkit-transform: translate(0,0);
     animation: btn infinite 1.5s;
+    -webkit-animation: btn infinite 1.5s;
     z-index: 100;
 }
 @keyframes btn {
     0%{
         opacity: .8;
         transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
     }
     50%{
         opacity: 1;
         transform:translateY(10px);
+        -webkit-transform:translateY(10px);
     }
     100%{
         transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
     }
 }
 
@@ -2397,13 +2444,16 @@ a, a:hover, a:active, a:visited, a:target {
     0%{
         opacity: .8;
         transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
     }
     50%{
         opacity: 1;
         transform:translateY(10px);
+        -webkit-transform:translateY(10px);
     }
     100%{
         transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
     }
 }
 
