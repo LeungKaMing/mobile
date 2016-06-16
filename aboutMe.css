@@ -77,22 +77,6 @@ html, body {
     opacity: 0;
 }
 
-@keyframes moveDown{
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%);
-  }
-}
 @-webkit-keyframes moveDown{
   0% {
     opacity: 0;
@@ -109,9 +93,27 @@ html, body {
     transform: translateY(0%);
   }
 }
+
+@keyframes moveDown{
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
 #page1 .bg{
+   -webkit-animation: moveDown 1000ms ease 2500ms both running;
     animation: moveDown 1000ms ease 2500ms both running;
-    -webkit-animation: moveDown 1000ms ease 2500ms both running;
 }
 
 .page1 .rocket{
@@ -125,8 +127,25 @@ html, body {
     background-size: 6.66rem;
     background-position: 0px 0px;
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
+@-webkit-keyframes moveUp{
+  0% {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
 @keyframes moveUp {
     /*超出一屏的高度隐藏，当动画执行的时候从超出位置进入舞台*/
   0% {
@@ -144,25 +163,9 @@ html, body {
     transform: translateY(0%);
   }
 }
-@-webkit-keyframes moveUp{
-  0% {
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%);
-  }
-}
 #page1 .rocket{
-    animation: moveUp 1500ms ease 1000ms both running;
-    -webkit-animation:moveUp 1500ms ease 1000ms both running;
+  -webkit-animation:moveUp 1500ms ease 1000ms both running;
+  animation: moveUp 1500ms ease 1000ms both running;
 }
 
 .page1 .expendOpen{
@@ -174,10 +177,11 @@ html, body {
     z-index: 100;
     background: url("./img/11.png")no-repeat;
     background-size:cover;
+    opacity: 0;
 }
 #page1 .expendOpen{
-    animation: expandOpen 1000ms linear both 3000ms;
     -webkit-animation: expandOpen 1000ms linear both 3000ms;
+    animation: expandOpen 1000ms linear both 3000ms;
 }
 @keyframes expandOpen {
     0% {
@@ -261,6 +265,7 @@ html, body {
     width:4.46rem;
     font-weight: normal;
     z-index: 100;
+    opacity: 0;
 }
 
 .page1 .exOpText2{
@@ -271,78 +276,79 @@ html, body {
     width:5.82rem;
     text-align: center;
     z-index: 100;
+    opacity: 0;
 }
 
 #page1 .exOpText1,#page1 .exOpText2{
-    animation:exOpText 1s ease-in-out both 1s;
     -webkit-animation:exOpText 1s ease-in-out both 1s;
-}
-@keyframes exOpText{
-    0%{
-        transform: scale(1.8);
-        -webkit-transform: scale(1.8);
-        -moz-transform: scale(1.8);
-        -o-transform: scale(1.8);
-        opacity: 0;
-    }
-    50%{
-        transform:scale(1);
-        -webkit-transform:scale(1);
-        -o-transform:scale(1);
-        -moz-transform:scale(1);
-    }
-    75%{
-        transform:scale(0.95);
-        -webkit-transform:scale(0.95);
-        -o-transform:scale(0.95);
-        -moz-transform:scale(0.95);
-    }
-    90%{
-        transform:scale(1.3);
-        -webkit-transform:scale(1.3);
-        -o-transform:scale(1.3);
-        -moz-transform:scale(1.3);
-    }
-    100%{
-        opacity: 1;
-        transform:scale(1);
-        -webkit-transform:scale(1);
-        -o-transform:scale(1);
-        -moz-transform:scale(1);
-    }
+    animation:exOpText 1s ease-in-out both 1s;
 }
 @-webkit-keyframes exOpText{
     0%{
-        transform: scale(1.8);
         -webkit-transform: scale(1.8);
         -moz-transform: scale(1.8);
         -o-transform: scale(1.8);
+        transform: scale(1.8);
         opacity: 0;
     }
     50%{
-        transform:scale(1);
         -webkit-transform:scale(1);
         -o-transform:scale(1);
         -moz-transform:scale(1);
+        transform:scale(1);
     }
     75%{
-        transform:scale(0.95);
         -webkit-transform:scale(0.95);
         -o-transform:scale(0.95);
         -moz-transform:scale(0.95);
+        transform:scale(0.95);
     }
     90%{
-        transform:scale(1.3);
         -webkit-transform:scale(1.3);
         -o-transform:scale(1.3);
         -moz-transform:scale(1.3);
+        transform:scale(1.3);
     }
     100%{
         opacity: 1;
-        transform:scale(1);
         -webkit-transform:scale(1);
         -o-transform:scale(1);
         -moz-transform:scale(1);
+        transform:scale(1);
+    }
+}
+@keyframes exOpText{
+    0%{
+        -webkit-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -o-transform: scale(1.8);
+        transform: scale(1.8);
+        opacity: 0;
+    }
+    50%{
+        -webkit-transform:scale(1);
+        -o-transform:scale(1);
+        -moz-transform:scale(1);
+        transform:scale(1);
+    }
+    75%{
+        -webkit-transform:scale(0.95);
+        -o-transform:scale(0.95);
+        -moz-transform:scale(0.95);
+        transform:scale(0.95);
+    }
+    90%{
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+        -moz-transform:scale(1.3);
+        transform:scale(1.3);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform:scale(1);
+        -o-transform:scale(1);
+        -moz-transform:scale(1);
+        transform:scale(1);
     }
 }
 
@@ -354,16 +360,18 @@ html, body {
     height:0.06rem;
     background-color: black;
     z-index: 100;
+    opacity: 0;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineRight {
-  animation: lineRight 300ms ease-out both 4500ms running;
   -webkit-animation: lineRight 300ms ease-out both 4500ms running;
+  animation: lineRight 300ms ease-out both 4500ms running;
+  -webkit-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
   -o-transform-origin: 0% 0%;
-  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
-@keyframes lineRight {
+@-webkit-keyframes lineRight {
   0% {
     -webkit-transform: scaleX(0.3);
     -moz-transform: scaleX(0.3);
@@ -409,7 +417,7 @@ html, body {
     transform: scaleX(1);
   }
 }
-@-webkit-keyframes lineRight {
+@keyframes lineRight {
   0% {
     -webkit-transform: scaleX(0.3);
     -moz-transform: scaleX(0.3);
@@ -464,15 +472,16 @@ html, body {
     height:0.06rem;  
     background-color: black;
     z-index: 100;
+    opacity: 0;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineLeft {
-  animation: lineLeft 300ms ease-out both 4500ms running;
   -webkit-animation: lineLeft 300ms ease-out both 4500ms running;
+  animation: lineLeft 300ms ease-out both 4500ms running;
+  -webkit-transform-origin: 100% 0%;
   -moz-transform-origin: 100% 0%;
   -o-transform-origin: 100% 0%;
   transform-origin: 100% 0%;
-  -webkit-transform-origin: 100% 0%;
 }
 @keyframes lineLeft {
   0% {
@@ -531,17 +540,18 @@ html, body {
   left: 2.34rem;
   bottom: 1.28rem;
   z-index: 1;
-  transform: rotate(0deg);  
   -webkit-transform:rotate(0deg);
+  transform: rotate(0deg);  
   background: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
+  opacity: 0;
 }
 #page1 .blue{
-    animation: rotateIn 1000ms ease 3000ms both running;
     -webkit-animation: rotateIn 1000ms ease 3000ms both running;
+    animation: rotateIn 1000ms ease 3000ms both running;
 }
 
 
@@ -552,17 +562,18 @@ html, body {
     left: 1.7rem;
     bottom: 1.28rem;
     z-index: 1;
-    transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     background: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
+    opacity: 0;
 }
 #page1 .yellow{
-  animation: rotateIn 1000ms ease 1400ms both running;
   -webkit-animation: rotateIn 1000ms ease 1400ms both running;
+  animation: rotateIn 1000ms ease 1400ms both running;
 }
 
 .page1 .green{
@@ -577,13 +588,14 @@ html, body {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-  transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  opacity: 0;
 }
 
 #page1 .green{
-  animation: rotateIn 1000ms ease 2200ms both running;
   -webkit-animation: rotateIn 1000ms ease 2200ms both running;
+  animation: rotateIn 1000ms ease 2200ms both running;
 }
 
 .page1 .red{
@@ -594,19 +606,20 @@ html, body {
   height: 2.42rem;
   z-index: 2;
   overflow: hidden;
-  transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
   background: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
+  opacity: 0;
 }
 #page1 .red{
-  animation: rotateIn 1000ms ease 600ms both running;
   -webkit-animation: rotateIn 1000ms ease 600ms both running;
+  animation: rotateIn 1000ms ease 600ms both running;
 }
 
-@keyframes rotateIn {
+@-webkit-keyframes rotateIn {
   from {
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
@@ -622,7 +635,7 @@ html, body {
     transform: rotate(0deg);
   }
 }
-@-webkit-keyframes rotateIn {
+@keyframes rotateIn {
   from {
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
@@ -645,8 +658,8 @@ html, body {
   height: 1.2rem;
   line-height: 1.2rem;
   text-align: center;
-  transform: translate(0,0);
   -webkit-transform: translate(0,0);
+  transform: translate(0,0);
   z-index: 1;
   bottom: 1.38rem;
   left: 50.5%;
@@ -656,12 +669,13 @@ html, body {
   background:-webkit-linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   background:linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   font-size: .32rem;
+  opacity: 0;
 }
 #page1 .click{
-  animation: slideInLeft 1000ms ease 3500ms both running;
   -webkit-animation: slideInLeft 1000ms ease 3500ms both running;
+  animation: slideInLeft 1000ms ease 3500ms both running;
 }
-@keyframes slideInLeft {
+@-webkit-keyframes slideInLeft {
   from {
     -webkit-transform: translate3d(-500%, 0, 0);
     -o-transform: translate3d(-500%, 0, 0);
@@ -680,7 +694,7 @@ html, body {
     -webkit-transform: translate3d(0, 0, 0);
   }
 }
-@-webkit-keyframes slideInLeft {
+@keyframes slideInLeft {
   from {
     -webkit-transform: translate3d(-500%, 0, 0);
     -o-transform: translate3d(-500%, 0, 0);
