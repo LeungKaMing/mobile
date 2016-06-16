@@ -1,30 +1,42 @@
-*{
-    margin:0;
-    padding:0;
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
 }
-html,body{
-    width:100%;
-    height:100%;
-    /*自带滚动事件以防溢出加上*/
-    overflow: hidden;
-    font-family: Microsoft YaHei,Arial,Helvetica,sans-serif;
+
+html {
+    -webkit-text-size-adjust: none;
 }
-html{
-    font-size: 100px;
+
+body {
+    -webkit-user-select: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    font-size: 12px;
+    color: #424242;
 }
-ul,li{ 
-    list-style: none;
-}
-img{
-    display: block;
-    border:none;
-}
+
 header, footer, nav, section, aside, figure, figcaption, article, audio, video {
     display: block;
 }
+
+input {
+    outline: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
 a, a:hover, a:active, a:visited, a:target {
     text-decoration: none;
     color: #424242;
+}
+
+img {
+    display: block;
+    border: none;
 }
 
 .clear:after {
@@ -33,6 +45,17 @@ a, a:hover, a:active, a:visited, a:target {
     content: "";
     clear: both;
 }
+
+html {
+    font-size: 100px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 /*以上公共样式*/
 /*以iphone5为例，320*568*/
 .page1{
@@ -102,7 +125,6 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 6.66rem;
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    opacity: 0;
 }
 
 @keyframes moveUp {
@@ -152,7 +174,6 @@ a, a:hover, a:active, a:visited, a:target {
     z-index: 100;
     background: url("./img/11.png")no-repeat;
     background-size:cover;
-    opacity: 0;
 }
 #page1 .expendOpen{
     animation: expandOpen 1000ms linear both 3000ms;
@@ -240,7 +261,6 @@ a, a:hover, a:active, a:visited, a:target {
     width:4.46rem;
     font-weight: normal;
     z-index: 100;
-    opacity: 0;
 }
 
 .page1 .exOpText2{
@@ -251,7 +271,6 @@ a, a:hover, a:active, a:visited, a:target {
     width:5.82rem;
     text-align: center;
     z-index: 100;
-    opacity: 0;
 }
 
 #page1 .exOpText1,#page1 .exOpText2{
@@ -335,7 +354,6 @@ a, a:hover, a:active, a:visited, a:target {
     height:0.06rem;
     background-color: black;
     z-index: 100;
-    opacity:0;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineRight {
@@ -446,7 +464,6 @@ a, a:hover, a:active, a:visited, a:target {
     height:0.06rem;  
     background-color: black;
     z-index: 100;
-    opacity: 0;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineLeft {
@@ -515,12 +532,12 @@ a, a:hover, a:active, a:visited, a:target {
   bottom: 1.28rem;
   z-index: 1;
   transform: rotate(0deg);  
+  -webkit-transform:rotate(0deg);
   background: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-    opacity: 0;
 }
 #page1 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
@@ -536,12 +553,12 @@ a, a:hover, a:active, a:visited, a:target {
     bottom: 1.28rem;
     z-index: 1;
     transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     background: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0;
 }
 #page1 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
@@ -561,7 +578,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
-    opacity: 0;
+  -webkit-transform: rotate(0deg);
 }
 
 #page1 .green{
@@ -578,11 +595,11 @@ a, a:hover, a:active, a:visited, a:target {
   z-index: 2;
   overflow: hidden;
   transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   background: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-    opacity: 0;
 }
 #page1 .red{
   animation: rotateIn 1000ms ease 600ms both running;
@@ -629,6 +646,7 @@ a, a:hover, a:active, a:visited, a:target {
   line-height: 1.2rem;
   text-align: center;
   transform: translate(0,0);
+  -webkit-transform: translate(0,0);
   z-index: 1;
   bottom: 1.38rem;
   left: 50.5%;
@@ -638,7 +656,6 @@ a, a:hover, a:active, a:visited, a:target {
   background:-webkit-linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   background:linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   font-size: .32rem;
-  opacity: 0;
 }
 #page1 .click{
   animation: slideInLeft 1000ms ease 3500ms both running;
@@ -650,6 +667,7 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: translate3d(-500%, 0, 0);
     -moz-transform: translate3d(-500%, 0, 0);
     transform: translate3d(-500%, 0, 0);
+    -webkit-transform: translate3d(-500%, 0, 0);
     visibility: visible;
     opacity: 0;
   }
@@ -659,6 +677,7 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
   }
 }
 @-webkit-keyframes slideInLeft {
@@ -667,6 +686,7 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: translate3d(-500%, 0, 0);
     -moz-transform: translate3d(-500%, 0, 0);
     transform: translate3d(-500%, 0, 0);
+    -webkit-transform: translate3d(-500%, 0, 0);
     visibility: visible;
     opacity: 0;
   }
@@ -676,6 +696,7 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
   }
 }
 /*第一页完*/
@@ -698,6 +719,7 @@ a, a:hover, a:active, a:visited, a:target {
   top: 0.8rem;
   z-index: 1;
   transform: rotate(0deg);  
+  -webkit-transform: rotate(0deg);  
   background: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -718,6 +740,7 @@ a, a:hover, a:active, a:visited, a:target {
     top: 0.8rem;
     z-index: 1;
     transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     background: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
@@ -743,6 +766,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
     opacity: 0;
 }
 
@@ -760,6 +784,7 @@ a, a:hover, a:active, a:visited, a:target {
   z-index: 2;
   overflow: hidden;
   transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   background: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -1360,6 +1385,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(-90deg) translateZ(0);
     -o-transform: rotate(-90deg) translateZ(0);
     transform: rotate(-90deg) translateZ(0);
+    opacity: 0;
   }
   100% {
     -webkit-transform-origin: left bottom;
@@ -1383,6 +1409,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(-90deg) translateZ(0);
     -o-transform: rotate(-90deg) translateZ(0);
     transform: rotate(-90deg) translateZ(0);
+    opacity: 0;
   }
   100% {
     -webkit-transform-origin: left bottom;
@@ -1407,6 +1434,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(90deg) translateZ(0);
     -o-transform: rotate(90deg) translateZ(0);
     transform: rotate(90deg) translateZ(0);
+    opacity: 0;
   }
   100% {
     -webkit-transform-origin: right bottom;
@@ -1417,6 +1445,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(0) translateZ(0);
     -o-transform: rotate(0) translateZ(0);
     transform: rotate(0) translateZ(0);
+    opacity: 1;
   }
 }
 @-webkit-keyframes rotateInDownRight {
@@ -1429,6 +1458,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: rotate(90deg) translateZ(0);
     -o-transform: rotate(90deg) translateZ(0);
     transform: rotate(90deg) translateZ(0);
+    opacity: 0;
   }
   100% {
     -webkit-transform-origin: right bottom;
@@ -1468,6 +1498,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: scale(0) translateZ(0);
     -o-transform: scale(0) translateZ(0);
     transform: scale(0) translateZ(0);
+    opacity: 0;
   }
   60% {
     -webkit-transform: scale(1.1) translateZ(0);
@@ -1498,6 +1529,7 @@ a, a:hover, a:active, a:visited, a:target {
     -moz-transform: scale(0) translateZ(0);
     -o-transform: scale(0) translateZ(0);
     transform: scale(0) translateZ(0);
+    opacity: 0;
   }
   60% {
     -webkit-transform: scale(1.1) translateZ(0);
@@ -1531,6 +1563,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: red;
   transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
     opacity: 0;
 }
 #page3 .line1{
@@ -1546,6 +1579,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: green;
   transform: rotate(147deg);
+  -webkit-transform: rotate(147deg);
     opacity: 0;
 }
 #page3 .line2{
@@ -1561,6 +1595,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: blue;
   transform: rotate(200deg);
+  -webkit-transform: rotate(200deg);
     opacity: 0;
 }
 #page3 .line3{
@@ -1576,6 +1611,7 @@ a, a:hover, a:active, a:visited, a:target {
   height: 0.04rem;
   background-color: orange;
   transform: rotate(141deg);
+  -webkit-transform: rotate(141deg);
     opacity: 0;
 }
 #page3 .line4{
@@ -1606,7 +1642,6 @@ a, a:hover, a:active, a:visited, a:target {
   left: -0.5rem;
   overflow: hidden;
   white-space: nowrap;
-    opacity: 0;
 }
 .page3 .circle2 .js{
   position: absolute;
@@ -1614,7 +1649,6 @@ a, a:hover, a:active, a:visited, a:target {
   font-size: 0.3rem;
   overflow: hidden;
   white-space: nowrap;
-    opacity: 0;
 }
 .page3 .circle3 .jQuery{
   position: absolute;
@@ -1622,7 +1656,6 @@ a, a:hover, a:active, a:visited, a:target {
   font-size: 0.3rem;
   overflow: hidden;
   white-space: nowrap;
-    opacity: 0;
 }
 .page3 .circle4 .bootstrap{
   position: absolute;
@@ -1630,7 +1663,6 @@ a, a:hover, a:active, a:visited, a:target {
   font-size: 0.3rem;
   left: 0.5rem;
   overflow: hidden;
-    opacity: 0;
 }
 .page3 .circle5 .node{
   position: absolute;
@@ -1639,7 +1671,6 @@ a, a:hover, a:active, a:visited, a:target {
   left: -0.5rem;
   overflow: hidden;
   white-space: nowrap;
-    opacity: 0;
 }
 
 /*第三页完*/
@@ -1693,6 +1724,7 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: none;
     -moz-transform: none;
     transform: none;
+    opacity: 0;
   }
 
   22.2% {
@@ -1751,6 +1783,7 @@ a, a:hover, a:active, a:visited, a:target {
     -o-transform: none;
     -moz-transform: none;
     transform: none;
+    opacity: 0;
   }
 
   22.2% {
@@ -1839,6 +1872,7 @@ a, a:hover, a:active, a:visited, a:target {
   0% {
     -webkit-transform: translate3d(0, -3000px, 0);
     transform: translate3d(0, -3000px, 0);
+    opacity: 0;
   }
 
   60% {
@@ -1872,6 +1906,7 @@ a, a:hover, a:active, a:visited, a:target {
   0% {
     -webkit-transform: translate3d(0, -3000px, 0);
     transform: translate3d(0, -3000px, 0);
+    opacity: 0;
   }
 
   60% {
