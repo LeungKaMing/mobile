@@ -104,6 +104,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page1 .rocket{
     animation: moveUp 1500ms ease 1000ms both running;
+    -webkit-animation:moveUp 1500ms ease 1000ms both running;
 }
 @keyframes moveUp {
     /*超出一屏的高度隐藏，当动画执行的时候从超出位置进入舞台*/
@@ -152,6 +153,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page1 .expendOpen{
     animation: expandOpen 1000ms linear both 3000ms;
+    -webkit-animation: expandOpen 1000ms linear both 3000ms;
 }
 @keyframes expandOpen {
     0% {
@@ -251,6 +253,7 @@ a, a:hover, a:active, a:visited, a:target {
 
 #page1 .exOpText1,#page1 .exOpText2{
     animation:exOpText 1s ease-in-out both 1s;
+    -webkit-animation:exOpText 1s ease-in-out both 1s;
 }
 @keyframes exOpText{
     0%{
@@ -518,6 +521,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page1 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
+    -webkit-animation: rotateIn 1000ms ease 3000ms both running;
 }
 
 
@@ -538,6 +542,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page1 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
+  -webkit-animation: rotateIn 1000ms ease 1400ms both running;
 }
 
 .page1 .green{
@@ -558,6 +563,7 @@ a, a:hover, a:active, a:visited, a:target {
 
 #page1 .green{
   animation: rotateIn 1000ms ease 2200ms both running;
+  -webkit-animation: rotateIn 1000ms ease 2200ms both running;
 }
 
 .page1 .red{
@@ -577,6 +583,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page1 .red{
   animation: rotateIn 1000ms ease 600ms both running;
+  -webkit-animation: rotateIn 1000ms ease 600ms both running;
 }
 
 @keyframes rotateIn {
@@ -632,6 +639,7 @@ a, a:hover, a:active, a:visited, a:target {
 }
 #page1 .click{
   animation: slideInLeft 1000ms ease 3500ms both running;
+  -webkit-animation: slideInLeft 1000ms ease 3500ms both running;
 }
 @keyframes slideInLeft {
   from {
@@ -692,7 +700,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-    opacity: 0;
+  opacity: 0;
 }
 #page2 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
