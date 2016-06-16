@@ -1579,8 +1579,8 @@ html, body {
 .page3 .line1{
   position: absolute;
   top: 1.5rem;
-  left: 3rem;
-  width: 1.24rem;
+  left: 3.1rem;
+  width: 1.2rem;
   height: 0.04rem;
   background-color: red;
   -webkit-transform: rotate(35deg);
@@ -1595,7 +1595,7 @@ html, body {
 .page3 .line2{
   position: absolute;
   top: 3.2rem;
-  left:2.2rem ;
+  left:2.3rem ;
   width: 2rem;
   height: 0.04rem;
   background-color: green;
@@ -1993,8 +1993,8 @@ html, body {
   position: absolute;
   top: 4.06rem;
   left: 3.2rem;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   line-height: 2rem;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -2009,9 +2009,10 @@ html, body {
 
 .page4 .one span{
     position: absolute;
-    left: 0.7rem;
+    top: 0.5rem;
+    left: 1rem;
     white-space: nowrap;
-    font-size: 0.1rem;
+    font-size: 0.3rem;
     color: #F89466;
     opacity: 0;
 }
@@ -2022,11 +2023,11 @@ html, body {
 
 .page4 .two{
   position: absolute;
-  top: 5.4rem;
-  left: 1.2rem;
+  top: 4.9rem;
+  left: 0.2rem;
   background-color: #333;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   line-height: 2rem;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -2040,8 +2041,11 @@ html, body {
 }
 
 .page4 .two span{
+  position: absolute;
+  top: .5rem;
+  left: .1rem;
     white-space: nowrap;
-    font-size: 0.1rem;
+    font-size: 0.3rem;
     color: #46BADD;
     opacity: 0;
 }
@@ -2053,11 +2057,11 @@ html, body {
 
 .page4 .three{
   position: absolute;
-  top: 6.95rem;
+  top: 6.5rem;
   left: 3.2rem;
   background-color: #333;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   line-height: 2rem;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -2071,9 +2075,10 @@ html, body {
 }
 .page4 .three span{
     position: absolute;
-    left: 0.7rem;
+    top: 0.5rem;
+    left: 1rem;
     white-space: nowrap;
-    font-size: 0.1rem;
+    font-size: 0.3rem;
     color: #434155;
     opacity: 0;
 }
@@ -2085,7 +2090,7 @@ html, body {
 
 .page4 .o1{
     position: absolute;
-    top: 5rem;
+    top: 5.5rem;
     left: 3.13rem;
     width: 0.17rem;
     height: 0.17rem;
