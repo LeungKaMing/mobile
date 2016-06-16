@@ -51,10 +51,11 @@ a, a:hover, a:active, a:visited, a:target {
     overflow: hidden;
     z-index: 1;
     background-color:rgb(96,217,146);
-    opacity: 0;
+    opacity: 1;
 }
 #page1 .bg{
     animation: moveDown 1000ms ease 2500ms both running;
+    -webkit-animation: moveDown 1000ms ease 2500ms both running;
 }
 @keyframes moveDown {
   0% {
@@ -100,7 +101,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-size: 6.66rem;
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    opacity: 0;
+    opacity: 1;
 }
 #page1 .rocket{
     animation: moveUp 1500ms ease 1000ms both running;
@@ -149,7 +150,7 @@ a, a:hover, a:active, a:visited, a:target {
     z-index: 100;
     background: url("./img/11.png")no-repeat;
     background-size:cover;
-    opacity: 0;
+    opacity: 1;
 }
 #page1 .expendOpen{
     animation: expandOpen 1000ms linear both 3000ms;
@@ -237,7 +238,7 @@ a, a:hover, a:active, a:visited, a:target {
     width:4.46rem;
     font-weight: normal;
     z-index: 100;
-    opacity: 0;
+    opacity: 1;
 }
 
 .page1 .exOpText2{
@@ -248,7 +249,7 @@ a, a:hover, a:active, a:visited, a:target {
     width:5.82rem;
     text-align: center;
     z-index: 100;
-    opacity: 0;
+    opacity: 1;
 }
 
 #page1 .exOpText1,#page1 .exOpText2{
@@ -332,14 +333,14 @@ a, a:hover, a:active, a:visited, a:target {
     height:0.06rem;
     background-color: black;
     z-index: 100;
-    opacity:0;
+    opacity:1;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineRight {
   animation: lineRight 300ms ease-out both 4500ms running;
+  -webkit-animation: lineRight 300ms ease-out both 4500ms running;
   -moz-transform-origin: 0% 0%;
   -o-transform-origin: 0% 0%;
-  -ms-transform-origin: 0% 0%;
   -webkit-transform-origin: 0% 0%;
 }
 @keyframes lineRight {
@@ -443,15 +444,15 @@ a, a:hover, a:active, a:visited, a:target {
     height:0.06rem;  
     background-color: black;
     z-index: 100;
-    opacity: 0;
+    opacity: 1;
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineLeft {
   animation: lineLeft 300ms ease-out both 4500ms running;
+  -webkit-animation: lineLeft 300ms ease-out both 4500ms running;
   -moz-transform-origin: 100% 0%;
   -o-transform-origin: 100% 0%;
   transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
   -webkit-transform-origin: 100% 0%;
 }
 @keyframes lineLeft {
@@ -517,7 +518,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-    opacity: 0;
+    opacity: 1;
 }
 #page1 .blue{
     animation: rotateIn 1000ms ease 3000ms both running;
@@ -538,7 +539,7 @@ a, a:hover, a:active, a:visited, a:target {
     background-position: 0px 0px;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0;
+    opacity: 1;
 }
 #page1 .yellow{
   animation: rotateIn 1000ms ease 1400ms both running;
@@ -558,7 +559,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-repeat: no-repeat;
   overflow: hidden;
   transform: rotate(0deg);
-    opacity: 0;
+    opacity: 1;
 }
 
 #page1 .green{
@@ -579,7 +580,7 @@ a, a:hover, a:active, a:visited, a:target {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-    opacity: 0;
+    opacity: 1;
 }
 #page1 .red{
   animation: rotateIn 1000ms ease 600ms both running;
@@ -635,7 +636,7 @@ a, a:hover, a:active, a:visited, a:target {
   background:-webkit-linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   background:linear-gradient(left,#ace,#f96);/*new gradient for Webkit*/
   font-size: .32rem;
-    opacity: 0;
+  opacity: 1;
 }
 #page1 .click{
   animation: slideInLeft 1000ms ease 3500ms both running;
