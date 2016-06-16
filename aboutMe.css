@@ -112,8 +112,8 @@ html, body {
 }
 
 #page1 .bg{
-   -webkit-animation: moveDown 1000ms ease 2500ms both running;
-    animation: moveDown 1000ms ease 2500ms both running;
+   -webkit-animation: moveDown 1000ms ease 2500ms both ;
+    animation: moveDown 1000ms ease 2500ms both ;
 }
 
 .page1 .rocket{
@@ -164,8 +164,8 @@ html, body {
   }
 }
 #page1 .rocket{
-  -webkit-animation:moveUp 1500ms ease 1000ms both running;
-  animation: moveUp 1500ms ease 1000ms both running;
+  -webkit-animation:moveUp 1500ms ease 1000ms both ;
+  animation: moveUp 1500ms ease 1000ms both ;
 }
 
 .page1 .expendOpen{
@@ -364,8 +364,8 @@ html, body {
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineRight {
-  -webkit-animation: lineRight 300ms ease-out both 4500ms running;
-  animation: lineRight 300ms ease-out both 4500ms running;
+  -webkit-animation: lineRight 300ms ease-out both 4500ms ;
+  animation: lineRight 300ms ease-out both 4500ms ;
   -webkit-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
   -o-transform-origin: 0% 0%;
@@ -476,8 +476,8 @@ html, body {
 }
 /*指定transform-origin的起点位置即可实现从往左扩展，还是往右扩展*/
 #page1 .lineLeft {
-  -webkit-animation: lineLeft 300ms ease-out both 4500ms running;
-  animation: lineLeft 300ms ease-out both 4500ms running;
+  -webkit-animation: lineLeft 300ms ease-out both 4500ms ;
+  animation: lineLeft 300ms ease-out both 4500ms ;
   -webkit-transform-origin: 100% 0%;
   -moz-transform-origin: 100% 0%;
   -o-transform-origin: 100% 0%;
@@ -550,8 +550,8 @@ html, body {
   opacity: 0;
 }
 #page1 .blue{
-    -webkit-animation: rotateIn 1000ms ease 3000ms both running;
-    animation: rotateIn 1000ms ease 3000ms both running;
+    -webkit-animation: rotateIn 1000ms ease 3000ms both ;
+    animation: rotateIn 1000ms ease 3000ms both ;
 }
 
 
@@ -572,8 +572,8 @@ html, body {
     opacity: 0;
 }
 #page1 .yellow{
-  -webkit-animation: rotateIn 1000ms ease 1400ms both running;
-  animation: rotateIn 1000ms ease 1400ms both running;
+  -webkit-animation: rotateIn 1000ms ease 1400ms both ;
+  animation: rotateIn 1000ms ease 1400ms both ;
 }
 
 .page1 .green{
@@ -594,8 +594,8 @@ html, body {
 }
 
 #page1 .green{
-  -webkit-animation: rotateIn 1000ms ease 2200ms both running;
-  animation: rotateIn 1000ms ease 2200ms both running;
+  -webkit-animation: rotateIn 1000ms ease 2200ms both ;
+  animation: rotateIn 1000ms ease 2200ms both ;
 }
 
 .page1 .red{
@@ -615,8 +615,8 @@ html, body {
   opacity: 0;
 }
 #page1 .red{
-  -webkit-animation: rotateIn 1000ms ease 600ms both running;
-  animation: rotateIn 1000ms ease 600ms both running;
+  -webkit-animation: rotateIn 1000ms ease 600ms both ;
+  animation: rotateIn 1000ms ease 600ms both ;
 }
 
 @-webkit-keyframes rotateIn {
@@ -672,8 +672,8 @@ html, body {
   opacity: 0;
 }
 #page1 .click{
-  -webkit-animation: slideInLeft 1000ms ease 3500ms both running;
-  animation: slideInLeft 1000ms ease 3500ms both running;
+  -webkit-animation: slideInLeft 1000ms ease 3500ms both ;
+  animation: slideInLeft 1000ms ease 3500ms both ;
 }
 @-webkit-keyframes slideInLeft {
   from {
@@ -722,6 +722,7 @@ html, body {
   height: 100%;
   background-color:rgb(96,217,146);
   overflow:hidden;
+  -webkit-transition:all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -732,8 +733,8 @@ html, body {
   left: 2.26rem;
   top: 0.8rem;
   z-index: 1;
-  transform: rotate(0deg);  
   -webkit-transform: rotate(0deg);  
+  transform: rotate(0deg);  
   background: url("./img/blue.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -742,8 +743,8 @@ html, body {
   opacity: 0;
 }
 #page2 .blue{
-    animation: rotateIn 1000ms ease 3000ms both running;
-    -webkit-animation: rotateIn 1000ms ease 3000ms both running;
+    -webkit-animation: rotateIn 1000ms ease 3000ms both ;
+    animation: rotateIn 1000ms ease 3000ms both ;
 }
 
 .page2 .yellow{
@@ -753,8 +754,8 @@ html, body {
     left: 1.9rem;
     top: 0.8rem;
     z-index: 1;
-    transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     background: url("./img/yellow.jpg") no-repeat center center;
     background-size: 100% 100%;
     background-position: 0px 0px;
@@ -763,8 +764,8 @@ html, body {
     opacity: 0;
 }
 #page2 .yellow{
-  animation: rotateIn 1000ms ease 1400ms both running;
-  -webkit-animation: rotateIn 1000ms ease 1400ms both running;
+  -webkit-animation: rotateIn 1000ms ease 1400ms both ;
+  animation: rotateIn 1000ms ease 1400ms both ;
 }
 
 .page2 .green{
@@ -779,14 +780,14 @@ html, body {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   overflow: hidden;
-  transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
     opacity: 0;
 }
 
 #page2 .green{
-  animation: rotateIn 1000ms ease 2200ms both running;
-  -webkit-animation: rotateIn 1000ms ease 2200ms both running;
+  -webkit-animation: rotateIn 1000ms ease 2200ms both ;
+  animation: rotateIn 1000ms ease 2200ms both ;
 }
 
 .page2 .red{
@@ -797,8 +798,8 @@ html, body {
   height: 2.42rem;
   z-index: 2;
   overflow: hidden;
-  transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
   background: url("./img/red.jpg") no-repeat center center;
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -807,11 +808,11 @@ html, body {
 }
 
 #page2 .red{
-  animation: rotateIn 1000ms ease 600ms both running;
-  -webkit-animation: rotateIn 1000ms ease 600ms both running;
+  -webkit-animation: rotateIn 1000ms ease 600ms both ;
+  animation: rotateIn 1000ms ease 600ms both ;
 }
 
-@keyframes rotateIn {
+@-webkit-keyframes rotateIn {
   from {
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
@@ -826,7 +827,7 @@ html, body {
     transform: rotate(0deg);
   }
 }
-@-webkit-keyframes rotateIn {
+@keyframes rotateIn {
   from {
     -webkit-transform: rotate(-220deg);
     -moz-transform: rotate(-220deg);
@@ -855,19 +856,20 @@ html, body {
     opacity: 0;
 }
 #page2 .me{
-    animation: zoomOut 1000ms ease 3200ms both running;
-    -webkit-animation: zoomOut 1000ms ease 3200ms both running;
+    -webkit-animation: zoomOut 1000ms ease 3200ms both ;
+    animation: zoomOut 1000ms ease 3200ms both ;
 }
 
-@keyframes zoomOut {
+@-webkit-keyframes zoomOut {
   from {
+    opacity: 0;
   }
 
   50% {
     opacity: 0;
     -webkit-transform: scale3d(.3, .3, .3);
-    -o-transform: scale3d(.3, .3, .3);
     -moz-transform: scale3d(.3, .3, .3);
+    -o-transform: scale3d(.3, .3, .3);
     transform: scale3d(.3, .3, .3);
   }
 
@@ -875,15 +877,16 @@ html, body {
     opacity: 1;
   }
 }
-@-webkit-keyframes zoomOut {
+@keyframes zoomOut {
   from {
+    opacity: 0;
   }
 
   50% {
     opacity: 0;
     -webkit-transform: scale3d(.3, .3, .3);
-    -moz-transform: scale3d(.3, .3, .3);
     -o-transform: scale3d(.3, .3, .3);
+    -moz-transform: scale3d(.3, .3, .3);
     transform: scale3d(.3, .3, .3);
   }
 
@@ -901,21 +904,21 @@ html, body {
   left: 2.9rem;
   color: lightcoral;
   font-size: .4rem;
-    opacity: 0;
+  opacity: 0;
 }
 
 #page2>p{
-  /*flash*/
-  animation: rubberBand 1000ms ease 3300ms both running;
-  -webkit-animation: rubberBand 1000ms ease 3300ms both running;
+  -webkit-animation: rubberBand 1000ms ease 3300ms both ;
+  animation: rubberBand 1000ms ease 3300ms both ;
 }
 
-@keyframes rubberBand {
+@-webkit-keyframes rubberBand {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+    opacity: 0;
   }
 
   30% {
@@ -962,12 +965,13 @@ html, body {
   }
 }
 
-@-webkit-keyframes rubberBand {
+@keyframes rubberBand {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+    opacity: 0;
   }
 
   30% {
@@ -1024,15 +1028,14 @@ html, body {
     opacity: 0;
 }
 #page2 .infoL{
-    animation: slideInLeft 1000ms ease 3400ms both running;
-    -webkit-animation: slideInLeft 1000ms ease 3400ms both running;
+    -webkit-animation: slideInLeft 1000ms ease 3400ms both ;
+    animation: slideInLeft 1000ms ease 3400ms both ;
 }
 
 .page2 .infoL span{
   display: block;
   width: 100%;
   height: 0.5rem;
-    opacity: 0;
 }
 
 .page2 .infoR{
@@ -1044,11 +1047,11 @@ html, body {
     opacity: 0;
 }
 #page2 .infoR{
-    animation: bounceInRight 2000ms ease 4000ms both running;
-    -webkit-animation: bounceInRight 2000ms ease 4000ms both running;
+    -webkit-animation: bounceInRight 2000ms ease 4000ms both ;
+    animation: bounceInRight 2000ms ease 4000ms both ;
 }
 
-@keyframes bounceInRight {
+@-webkit-keyframes bounceInRight {
   from, 60%, 75%, 90%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -o-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -1093,7 +1096,7 @@ html, body {
     transform: none;
   }
 }
-@-webkit-keyframes bounceInRight {
+@keyframes bounceInRight {
   from, 60%, 75%, 90%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -o-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -1143,7 +1146,6 @@ html, body {
   display: block;
   width: 100%;
   height: 0.5rem;
-    opacity: 0;
 }
 
 .page2 .QQIcon{
@@ -1159,10 +1161,10 @@ html, body {
     opacity: 0;
 }
 #page2 .QQIcon{
-  animation: tada 1000ms ease 3400ms both running;
-  -webkit-animation: tada 1000ms ease 3400ms both running;
+  -webkit-animation: tada 1000ms ease 3400ms both ;
+  animation: tada 1000ms ease 3400ms both ;
 }
-@keyframes tada {
+@-webkit-keyframes tada {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
@@ -1199,7 +1201,7 @@ html, body {
     transform: scale3d(1, 1, 1);
   }
 }
-@-webkit-keyframes tada {
+@keyframes tada {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
@@ -1245,11 +1247,11 @@ html, body {
     opacity: 0;
 }
 #page2 .QQ{
-  animation: pulse 5000ms ease 4500ms infinite running;
-  -webkit-animation: pulse 5000ms ease 4500ms infinite running;
+  -webkit-animation: pulse 5000ms ease 4500ms infinite ;
+  animation: pulse 5000ms ease 4500ms infinite ;
 }
 
-@keyframes pulse {
+@-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
@@ -1272,7 +1274,7 @@ html, body {
     transform: scale3d(1, 1, 1);
   }
 }
-@-webkit-keyframes pulse {
+@keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
@@ -1305,6 +1307,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow:hidden;
+  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   background-color:rgb(39,161,165);
 }
@@ -1326,6 +1329,7 @@ html, body {
   left: 1.5rem;
   width: 1.7rem;
   height: 1.7rem;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   background:url("./img/H5+CSS3.jpg") no-repeat center center;
   border: 1px solid transparent;
@@ -1334,8 +1338,8 @@ html, body {
     opacity: 0;
 }
 #page3 .circle1{
-  animation: rotateInDownLeft 1000ms ease 600ms both running;
-  -webkit-animation: rotateInDownLeft 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownLeft 1000ms ease 600ms both ;
+  animation: rotateInDownLeft 1000ms ease 600ms both ;
 }
 
 .page3 .circle2{
@@ -1343,6 +1347,7 @@ html, body {
   left: 4rem;
   width: 1.62rem;
   height: 1.54rem;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   background: url("./img/js.jpg") no-repeat center center;
   border: 1px solid transparent;
@@ -1351,8 +1356,8 @@ html, body {
     opacity: 0;
 }
 #page3 .circle2{
-  animation: rotateInDownRight 1000ms ease 600ms both running;
-  -webkit-animation: rotateInDownRight 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownRight 1000ms ease 600ms both ;
+  animation: rotateInDownRight 1000ms ease 600ms both ;
 }
 
 .page3 .circle3{
@@ -1367,8 +1372,8 @@ html, body {
     opacity: 0;
 }
 #page3 .circle3{
-  animation: rotateInDownLeft 1000ms ease 600ms both running;
-  -webkit-animation: rotateInDownLeft 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownLeft 1000ms ease 600ms both ;
+  animation: rotateInDownLeft 1000ms ease 600ms both ;
 }
 
 
@@ -1384,35 +1389,11 @@ html, body {
     opacity: 0;
 }
 #page3 .circle4{
-  animation: rotateInDownRight 1000ms ease 600ms both running;
-  -webkit-animation: rotateInDownRight 1000ms ease 600ms both running;
+  -webkit-animation: rotateInDownRight 1000ms ease 600ms both ;
+  animation: rotateInDownRight 1000ms ease 600ms both ;
 }
 
 
-@keyframes rotateInDownLeft {
-  0% {
-    -webkit-transform-origin: left bottom;
-    -moz-transform-origin: left bottom;
-    -o-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -webkit-transform: rotate(-90deg) translateZ(0);
-    -moz-transform: rotate(-90deg) translateZ(0);
-    -o-transform: rotate(-90deg) translateZ(0);
-    transform: rotate(-90deg) translateZ(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform-origin: left bottom;
-    -moz-transform-origin: left bottom;
-    -o-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -webkit-transform: rotate(0) translateZ(0);
-    -moz-transform: rotate(0) translateZ(0);
-    -o-transform: rotate(0) translateZ(0);
-    transform: rotate(0) translateZ(0);
-    opacity: 1;
-  }
-}
 @-webkit-keyframes rotateInDownLeft {
   0% {
     -webkit-transform-origin: left bottom;
@@ -1437,8 +1418,32 @@ html, body {
     opacity: 1;
   }
 }
+@keyframes rotateInDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-90deg) translateZ(0);
+    -moz-transform: rotate(-90deg) translateZ(0);
+    -o-transform: rotate(-90deg) translateZ(0);
+    transform: rotate(-90deg) translateZ(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(0) translateZ(0);
+    -moz-transform: rotate(0) translateZ(0);
+    -o-transform: rotate(0) translateZ(0);
+    transform: rotate(0) translateZ(0);
+    opacity: 1;
+  }
+}
 
-@keyframes rotateInDownRight {
+@-webkit-keyframes rotateInDownRight {
   0% {
     -webkit-transform-origin: right bottom;
     -moz-transform-origin: right bottom;
@@ -1462,7 +1467,7 @@ html, body {
     opacity: 1;
   }
 }
-@-webkit-keyframes rotateInDownRight {
+@keyframes rotateInDownRight {
   0% {
     -webkit-transform-origin: right bottom;
     -moz-transform-origin: right bottom;
@@ -1493,6 +1498,7 @@ html, body {
   left: 2.3rem;
   width: 1.7rem;
   height: 1.7rem;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   border: 1px solid transparent;
   border-radius: 50%;
@@ -1502,39 +1508,8 @@ html, body {
 }
 
 #page3 .circle5{
-  animation: fadeIn 1000ms ease 4000ms both running;
-  -webkit-animation: fadeIn 1000ms ease 4000ms both running;
-}
-
-@keyframes fadeIn {
-  0% {
-    -webkit-transform: scale(0) translateZ(0);
-    -moz-transform: scale(0) translateZ(0);
-    -o-transform: scale(0) translateZ(0);
-    transform: scale(0) translateZ(0);
-    opacity: 0;
-  }
-  60% {
-    -webkit-transform: scale(1.1) translateZ(0);
-    -moz-transform: scale(1.1) translateZ(0);
-    -o-transform: scale(1.1) translateZ(0);
-    transform: scale(1.1) translateZ(0);
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: scale(0.9) translateZ(0);
-    -moz-transform: scale(0.9) translateZ(0);
-    -o-transform: scale(0.9) translateZ(0);
-    transform: scale(0.9) translateZ(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1) translateZ(0);
-    -moz-transform: scale(1) translateZ(0);
-    -o-transform: scale(1) translateZ(0);
-    transform: scale(1) translateZ(0);
-    opacity: 1;
-  }
+  -webkit-animation: fadeIn 1000ms ease 4000ms both ;
+  animation: fadeIn 1000ms ease 4000ms both ;
 }
 
 @-webkit-keyframes fadeIn {
@@ -1567,6 +1542,37 @@ html, body {
     opacity: 1;
   }
 }
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0) translateZ(0);
+    -moz-transform: scale(0) translateZ(0);
+    -o-transform: scale(0) translateZ(0);
+    transform: scale(0) translateZ(0);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1.1) translateZ(0);
+    -moz-transform: scale(1.1) translateZ(0);
+    -o-transform: scale(1.1) translateZ(0);
+    transform: scale(1.1) translateZ(0);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(0.9) translateZ(0);
+    -moz-transform: scale(0.9) translateZ(0);
+    -o-transform: scale(0.9) translateZ(0);
+    transform: scale(0.9) translateZ(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1) translateZ(0);
+    -moz-transform: scale(1) translateZ(0);
+    -o-transform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+  }
+}
+
 
 
 .page3 .line1{
@@ -1576,13 +1582,13 @@ html, body {
   width: 1.24rem;
   height: 0.04rem;
   background-color: red;
-  transform: rotate(35deg);
   -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
     opacity: 0;
 }
 #page3 .line1{
-  animation: fadeInNormal 1000ms ease 2000ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 2000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 2000ms both ;
+  animation: fadeInNormal 1000ms ease 2000ms both ;
 }
 
 .page3 .line2{
@@ -1592,13 +1598,13 @@ html, body {
   width: 2rem;
   height: 0.04rem;
   background-color: green;
-  transform: rotate(147deg);
   -webkit-transform: rotate(147deg);
+  transform: rotate(147deg);
     opacity: 0;
 }
 #page3 .line2{
-  animation: fadeInNormal 1000ms ease 2500ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 2500ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 2500ms both ;
+  animation: fadeInNormal 1000ms ease 2500ms both ;
 }
 
 .page3 .line3{
@@ -1608,13 +1614,13 @@ html, body {
   width: 1.7rem;
   height: 0.04rem;
   background-color: blue;
-  transform: rotate(200deg);
   -webkit-transform: rotate(200deg);
+  transform: rotate(200deg);
     opacity: 0;
 }
 #page3 .line3{
-  animation: fadeInNormal 1000ms ease 3000ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 3000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 3000ms both ;
+  animation: fadeInNormal 1000ms ease 3000ms both ;
 }
 
 .page3 .line4{
@@ -1624,15 +1630,15 @@ html, body {
   width: 0.8rem;
   height: 0.04rem;
   background-color: orange;
-  transform: rotate(141deg);
   -webkit-transform: rotate(141deg);
+  transform: rotate(141deg);
     opacity: 0;
 }
 #page3 .line4{
-  animation: fadeInNormal 1000ms ease 3500ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 3500ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 3500ms both ;
+  animation: fadeInNormal 1000ms ease 3500ms both ;
 }
-@keyframes fadeInNormal {
+@-webkit-keyframes fadeInNormal {
   0% {
     opacity: 0;
   }
@@ -1640,7 +1646,7 @@ html, body {
     opacity: 1;
   }
 }
-@-webkit-keyframes fadeInNormal {
+@keyframes fadeInNormal {
   0% {
     opacity: 0;
   }
@@ -1697,6 +1703,7 @@ html, body {
   height: 100%;
   background-color:rgb(96,217,146);
   overflow:hidden;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
   font-size: .32rem;
 }
@@ -1718,8 +1725,8 @@ html, body {
     opacity: 0;
 }
 #page4 .clock{
-  animation: rotateIn 2000ms ease 1000ms both running;
-  -webkit-animation: rotateIn 2000ms ease 1000ms both running;
+  -webkit-animation: rotateIn 2000ms ease 1000ms both ;
+  animation: rotateIn 2000ms ease 1000ms both ;
 }
 
 .page4 .desc{
@@ -1729,10 +1736,10 @@ html, body {
     opacity: 0;
 }
 #page4 .desc{
-  animation: jello 2000ms ease 1500ms both running;
-  -webkit-animation: jello 2000ms ease 1500ms both running;
+  -webkit-animation: jello 2000ms ease 1500ms both ;
+  animation: jello 2000ms ease 1500ms both ;
 }
-@keyframes jello {
+@-webkit-keyframes jello {
   from, 11.1%, to {
     -webkit-transform: none;
     -o-transform: none;
@@ -1791,7 +1798,7 @@ html, body {
     transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
   }
 }
-@-webkit-keyframes jello {
+@keyframes jello {
   from, 11.1%, to {
     -webkit-transform: none;
     -o-transform: none;
@@ -1865,8 +1872,8 @@ html, body {
     opacity: 0;
 }
 #page4 .programDesc{
-  animation: bounceInDown 1000ms ease 2000ms both running;
-  -webkit-animation: bounceInDown 1000ms ease 2000ms both running;
+  -webkit-animation: bounceInDown 1000ms ease 2000ms both ;
+  animation: bounceInDown 1000ms ease 2000ms both ;
 }
 
 .page4 .programDesc span{
@@ -1877,7 +1884,7 @@ html, body {
     opacity: 0;
 }
 
-@keyframes bounceInDown {
+@-webkit-keyframes bounceInDown {
   from, 60%, 75%, 90%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -1911,7 +1918,7 @@ html, body {
     transform: none;
   }
 }
-@-webkit-keyframes bounceInDown {
+@keyframes bounceInDown {
   from, 60%, 75%, 90%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -1956,10 +1963,10 @@ html, body {
     opacity: 0;
 }
 #page4 .proLine{
-  animation: fadeV1 6000ms ease 4000ms both running;
-  -webkit-animation: fadeV1 6000ms ease 4000ms both running;
+  -webkit-animation: fadeV1 6000ms ease 4000ms both ;
+  animation: fadeV1 6000ms ease 4000ms both ;
 }
-@keyframes fadeV1{
+@-webkit-keyframes fadeV1{
   0%{
     opacity: 0;
     height: 0.1rem;
@@ -1969,7 +1976,7 @@ html, body {
     height: 5.5rem;
   }
 }
-@-webkit-keyframes fadeV1{
+@keyframes fadeV1{
   0%{
     opacity: 0;
     height: 0.1rem;
@@ -1995,8 +2002,8 @@ html, body {
     opacity: 0;
 }
 #page4 .one{
-  animation: fadeInRightBig 1000ms ease 5000ms both running;
-  -webkit-animation: fadeInRightBig 1000ms ease 5000ms both running;
+  -webkit-animation: fadeInRightBig 1000ms ease 5000ms both ;
+  animation: fadeInRightBig 1000ms ease 5000ms both ;
 }
 
 .page4 .one span{
@@ -2008,8 +2015,8 @@ html, body {
     opacity: 0;
 }
 #page4 .one span{
-  animation: zoomInRight 1000ms ease 5500ms both running;
-  -webkit-animation: zoomInRight 1000ms ease 5500ms both running;
+  -webkit-animation: zoomInRight 1000ms ease 5500ms both ;
+  animation: zoomInRight 1000ms ease 5500ms both ;
 }
 
 .page4 .two{
@@ -2027,8 +2034,8 @@ html, body {
     opacity: 0;
 }
 #page4 .two{
-  animation: fadeInLeftBig 1000ms ease 6000ms both running;
-  -webkit-animation: fadeInLeftBig 1000ms ease 6000ms both running;
+  -webkit-animation: fadeInLeftBig 1000ms ease 6000ms both ;
+  animation: fadeInLeftBig 1000ms ease 6000ms both ;
 }
 
 .page4 .two span{
@@ -2039,8 +2046,8 @@ html, body {
 }
 
 #page4 .two span{
-  animation: zoomInLeft 1000ms ease 6500ms both running;
-  -webkit-animation: zoomInLeft 1000ms ease 6500ms both running;
+  -webkit-animation: zoomInLeft 1000ms ease 6500ms both ;
+  animation: zoomInLeft 1000ms ease 6500ms both ;
 }
 
 .page4 .three{
@@ -2058,8 +2065,8 @@ html, body {
     opacity: 0;
 }
 #page4 .three{
-  animation: fadeInRightBig 1000ms ease 7000ms both running;
-  -webkit-animation: fadeInRightBig 1000ms ease 7000ms both running;
+  -webkit-animation: fadeInRightBig 1000ms ease 7000ms both ;
+  animation: fadeInRightBig 1000ms ease 7000ms both ;
 }
 .page4 .three span{
     position: absolute;
@@ -2070,8 +2077,8 @@ html, body {
     opacity: 0;
 }
 #page4 .three span{
-  animation: zoomInRight 1000ms ease 7500ms both running;
-  -webkit-animation: zoomInRight 1000ms ease 7500ms both running;
+  -webkit-animation: zoomInRight 1000ms ease 7500ms both ;
+  animation: zoomInRight 1000ms ease 7500ms both ;
 }
 
 
@@ -2086,8 +2093,8 @@ html, body {
     opacity: 0;
 }
 #page4 .o1{
-  animation: fadeInNormal 1000ms ease 5000ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 5000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 5000ms both ;
+  animation: fadeInNormal 1000ms ease 5000ms both ;
 }
 
 .page4 .t2{
@@ -2101,8 +2108,8 @@ html, body {
     opacity: 0;
 }
 #page4 .t2{
-  animation: fadeInNormal 1000ms ease 6000ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 6000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 6000ms both ;
+  animation: fadeInNormal 1000ms ease 6000ms both ;
 }
 
 .page4 .t3{
@@ -2116,30 +2123,11 @@ html, body {
     opacity: 0;
 }
 #page4 .t3{
-  animation: fadeInNormal 1000ms ease 7000ms both running;
-  -webkit-animation: fadeInNormal 1000ms ease 7000ms both running;
+  -webkit-animation: fadeInNormal 1000ms ease 7000ms both ;
+  animation: fadeInNormal 1000ms ease 7000ms both ;
 }
 
 
-@keyframes zoomInRight {
-  from {
-    -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
-    transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
-    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
-    transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
-    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-  }
-  to{
-    opacity: 1;
-  }
-}
 @-webkit-keyframes zoomInRight {
   from {
     -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
@@ -2159,10 +2147,30 @@ html, body {
     opacity: 1;
   }
 }
-@keyframes fadeInRightBig {
+@keyframes zoomInRight {
+  from {
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+    transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+    transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+  to{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeInRightBig {
   from {
     -webkit-transform: translate3d(2000px, 0, 0);
     transform: translate3d(2000px, 0, 0);
+    opacity: 0;
   }
 
   to {
@@ -2171,10 +2179,25 @@ html, body {
     transform: none;
   }
 }
-@-webkit-keyframes fadeInRightBig {
+@keyframes fadeInRightBig {
   from {
     -webkit-transform: translate3d(2000px, 0, 0);
     transform: translate3d(2000px, 0, 0);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInLeftBig {
+  from {
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    opacity: 0;
   }
 
   to {
@@ -2187,6 +2210,7 @@ html, body {
   from {
     -webkit-transform: translate3d(-2000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
+    opacity: 0;
   }
 
   to {
@@ -2195,20 +2219,31 @@ html, body {
     transform: none;
   }
 }
-@-webkit-keyframes fadeInLeftBig {
+
+
+@-webkit-keyframes zoomInLeft {
   from {
-    -webkit-transform: translate3d(-2000px, 0, 0);
-    transform: translate3d(-2000px, 0, 0);
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+    transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
   }
 
-  to {
+  60% {
     opacity: 1;
-    -webkit-transform: none;
-    transform: none;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+    transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+  100%{
+    opacity: 1;
   }
 }
 @keyframes zoomInLeft {
   from {
+    opacity: 0;
     -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
     transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
     -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
@@ -2226,26 +2261,9 @@ html, body {
     opacity: 1;
   }
 }
-@-webkit-keyframes zoomInLeft {
-  from {
-    -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
-    transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
-    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-  }
 
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
-    transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
-    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-  }
-  100%{
-    opacity: 1;
-  }
-}
-@keyframes fadeInNormal {
+
+@-webkit-keyframes fadeInNormal {
   0% {
     opacity: 0;
   }
@@ -2253,7 +2271,7 @@ html, body {
     opacity: 1;
   }
 }
-@-webkit-keyframes fadeInNormal {
+@keyframes fadeInNormal {
   0% {
     opacity: 0;
   }
@@ -2272,8 +2290,8 @@ html, body {
   background-color: #fee600;
   overflow:hidden;
   background-color:rgb(39,161,165);
-  transition: all 1s ease;
   -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 #page5{
   background-color:rgb(96,217,146);
@@ -2292,8 +2310,8 @@ html, body {
     opacity: 0;
 }
 #page5 .call{
-    animation: slideInLeft 1000ms ease 1200ms both running;
-    -webkit-animation: slideInLeft 1000ms ease 1200ms both running;
+    -webkit-animation: slideInLeft 1000ms ease 1200ms both ;
+    animation: slideInLeft 1000ms ease 1200ms both ;
 }
 
 .page5 .me{
@@ -2309,10 +2327,23 @@ html, body {
     opacity: 0;
 }
 #page5 .me{
-    animation: slideInRight 1000ms ease 1300ms both running;
-    -webkit-animation: slideInRight 1000ms ease 1300ms both running;
+    -webkit-animation: slideInRight 1000ms ease 1300ms both ;
+    animation: slideInRight 1000ms ease 1300ms both ;
 }
 
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 @keyframes slideInLeft {
   from {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -2326,10 +2357,12 @@ html, body {
     transform: translate3d(0, 0, 0);
   }
 }
-@-webkit-keyframes slideInLeft {
+
+
+@-webkit-keyframes slideInRight {
   from {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
     visibility: visible;
   }
 
@@ -2353,57 +2386,46 @@ html, body {
   }
 }
 
-@-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 
 .page5 .thanks{    
     position: absolute;
     bottom: 3rem;
     left: 0.5rem;
     font-size: 0.5rem;
-    transform: rotate(32deg);
     -webkit-transform: rotate(32deg);
+    transform: rotate(32deg);
     color: #fff;
     opacity: 0;
 }
 #page5 .thanks{
-    animation: Ljm 2000ms ease 1600ms both running;
-    -webkit-animation: Ljm 2000ms ease 1600ms both running;
+    -webkit-animation: Ljm 2000ms ease 1600ms both ;
+    animation: Ljm 2000ms ease 1600ms both ;
 }
 
-@keyframes Ljm {
-  from {
-    transform: translate(-100rem) rotate(32deg);
-    -webkit-transform: translate(-100rem) rotate(32deg);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0rem) rotate(32deg);
-    -webkit-transform: translate(0rem) rotate(32deg);
-  }
-}
 @-webkit-keyframes Ljm {
   from {
-    transform: translate(-100rem) rotate(32deg);
+    opacity: 0;
     -webkit-transform: translate(-100rem) rotate(32deg);
+    transform: translate(-100rem) rotate(32deg);
   }
 
   to {
     opacity: 1;
-    transform: translate(0rem) rotate(32deg);
     -webkit-transform: translate(0rem) rotate(32deg);
+    transform: translate(0rem) rotate(32deg);
+  }
+}
+@keyframes Ljm {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-100rem) rotate(32deg);
+    transform: translate(-100rem) rotate(32deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0rem) rotate(32deg);
+    transform: translate(0rem) rotate(32deg);
   }
 }
 
@@ -2472,22 +2494,7 @@ html, body {
     -webkit-animation: btn infinite 1.5s;
     z-index: 100;
 }
-@keyframes btn {
-    0%{
-        opacity: .8;
-        transform: translateY(-5px);
-        -webkit-transform: translateY(-5px);
-    }
-    50%{
-        opacity: 1;
-        transform:translateY(10px);
-        -webkit-transform:translateY(10px);
-    }
-    100%{
-        transform: translateY(-5px);
-        -webkit-transform: translateY(-5px);
-    }
-}
+
 
 @-webkit-keyframes btn {
     0%{
@@ -2506,6 +2513,23 @@ html, body {
     }
 }
 
+
+@keyframes btn {
+    0%{
+        opacity: .8;
+        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+    }
+    50%{
+        opacity: 1;
+        transform:translateY(10px);
+        -webkit-transform:translateY(10px);
+    }
+    100%{
+        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+    }
+}
 
 
 
