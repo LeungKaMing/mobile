@@ -2118,7 +2118,7 @@ html, body {
   animation: fadeInNormal 1000ms ease 6000ms both ;
 }
 
-.page4 .t3{
+/*.page4 .t3{
     position: absolute;
     top: 7.9rem;
     left: 3.13rem;
@@ -2131,7 +2131,7 @@ html, body {
 #page4 .t3{
   -webkit-animation: fadeInNormal 1000ms ease 7000ms both ;
   animation: fadeInNormal 1000ms ease 7000ms both ;
-}
+}*/
 
 
 @-webkit-keyframes zoomInRight {
